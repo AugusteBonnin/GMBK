@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/savebook.png</file>
+        <file>images/openbook.png</file>
+        <file>images/newpage.png</file>
+        <file>images/newbook.png</file>
+        <file>images/deletepage.png</file>
+        <file>images/exporthtml.png</file>
+        <file>images/gotopage.png</file>
+        <file>images/history.png</file>
+        <file>images/clearhistory.png</file>
+        <file>images/home.png</file>
+        <file>images/bold.png</file>
+        <file>images/italic.png</file>
+        <file>images/textcenter.png</file>
+        <file>images/textjustify.png</file>
+        <file>images/textleft.png</file>
+        <file>images/textright.png</file>
+        <file>images/underline.png</file>
+        <file>images/image.png</file>
+        <file>images/delete.png</file>
+        <file>images/add.png</file>
+        <file>images/bottom.png</file>
+        <file>images/del.png</file>
+        <file>images/down.png</file>
+        <file>images/top.png</file>
+        <file>images/up.png</file>
+        <file>images/algebra.png</file>
+        <file>images/tree.png</file>
+        <file>images/alea.png</file>
+    </qresource>
+</RCC>
