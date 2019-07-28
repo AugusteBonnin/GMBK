@@ -2,6 +2,7 @@
 #include "booleanalgebradialog.h"
 #include "form.h"
 #include "mainwindow.h"
+#include "narytreedialog.h"
 #include "pseudorandomdialog.h"
 #include "ui_mainwindow.h"
 
@@ -9,6 +10,7 @@
 #include <QFileDialog>
 #include <QMessageBox>
 #include <QMouseEvent>
+
 
 MainWindow::MainWindow() :
     QMainWindow()
@@ -151,6 +153,17 @@ void MainWindow::documentWasModified()
 
 void MainWindow::init()
 {
+    try {
+        m_Hunspell = new Hunspell("fr-classique.aff",
+                                  "fr-classique.dic");
+        qDebug() << "Hunspell with AFF" << "fr-classique.aff" << "and DIC" << "fr-classique.dic";
+        m_Encoding = QString::fromLatin1(m_Hunspell->get_dic_encoding());
+        m_Codec = QTextCodec::codecForName(m_Encoding.toLatin1().constData());
+    }
+    catch(...) {
+        qDebug() << "Error in Hunspell with AFF" << "fr-classique.aff" << "and DIC" << "fr-classique.dic";
+        m_Hunspell = NULL;
+    }
     //setAttribute(Qt::WA_DeleteOnClose);
     setIconSize(QSize(64,64));
 
@@ -174,6 +187,8 @@ void MainWindow::init()
             this, SLOT(rebuidHistoryMenu()));
 
     setUnifiedTitleAndToolBarOnMac(true);
+
+
 }
 
 void MainWindow::tile(const QMainWindow *previous)
@@ -355,7 +370,7 @@ void MainWindow::createActions()
     const QIcon treeIcon(":/images/tree.png");
     QAction *treeAct = new QAction(treeIcon, tr("Créer un arbre binaire"), this);
     treeAct->setStatusTip(tr("Créer un arbre binaire"));
-    connect(treeAct, SIGNAL(triggered(bool)), this, SLOT(createTree()));
+    connect(treeAct, SIGNAL(triggered(bool)), this, SLOT(createBinaryTree()));
     fileToolBar->addAction(treeAct);
 
     const QIcon aleaIcon(":/images/alea.png");
@@ -363,6 +378,12 @@ void MainWindow::createActions()
     aleaAct->setStatusTip(tr("Créer des suites pseudo-aléatoires"));
     connect(aleaAct, SIGNAL(triggered(bool)), this, SLOT(createRandom()));
     fileToolBar->addAction(aleaAct);
+
+    const QIcon naryTreeIcon(":/images/narytree.png");
+    QAction *naryAct = new QAction(naryTreeIcon, tr("Créer un arbre n-aire"), this);
+    naryAct->setStatusTip(tr("Créer un arbre n-aire"));
+    connect(naryAct, SIGNAL(triggered(bool)), this, SLOT(createNaryTree()));
+    fileToolBar->addAction(naryAct);
 
 
 
@@ -646,7 +667,7 @@ void MainWindow::createAlgebra()
     }
 }
 
-void MainWindow::createTree()
+void MainWindow::createBinaryTree()
 {
     BinaryTreeDialog btd(this);
     int ret = btd.exec();
@@ -728,4 +749,46 @@ void MainWindow::createRandom()
         break;
 
     }
+}
+
+void MainWindow::createNaryTree()
+{
+    NaryTreeDialog ntd(this);
+    int ret = ntd.exec();
+    switch(ret)
+    {
+    case QDialog::Accepted :
+    {
+        QStringList events = ntd.getEvents();
+        document->newChapter(tr("Arbre n-aire"));
+        QStringList pages;
+        QString page = document->newPage();
+        pages << page ;
+        document->setPageText(page,"Introduction");
+        createNaryNode(page,events,QStringList());
+
+        document->setCurrentPageId(page);
+        document->setModified(true);
+        form->updatePage();
+    }
+    default:
+        break;
+
+    }
+}
+
+void MainWindow::createNaryNode(QString parent,const QStringList & events,QStringList used)
+{
+    for (int i = 0 ; i < events.count() ; ++i)
+        if (!used.contains(events[i]))
+        {
+            QString new_page = document->newPage();
+
+            document->addPageSequel(parent,events[i],new_page);
+            QStringList new_used = used ;
+            new_used << events[i] ;
+            QString text = new_used.join("<BR>");
+            document->setPageText(new_page,text);
+            createNaryNode(new_page,events,new_used );
+        }
 }

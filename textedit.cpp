@@ -1,4 +1,5 @@
 
+#include "mainwindow.h"
 #include "textedit.h"
 
 #include <QApplication>
@@ -6,9 +7,12 @@
 #include <QColorDialog>
 #include <QFileDialog>
 #include <QGridLayout>
+#include <QDebug>
+
+#include <hunspell/hunspell.hxx>
 
 
-TextEdit::TextEdit(QWidget *parent)
+TextEdit::TextEdit(MainWindow *parent)
     : QWidget(parent)
 {
 
@@ -125,6 +129,7 @@ TextEdit::TextEdit(QWidget *parent)
     connect(textEdit, &QTextEdit::cursorPositionChanged,
             this, &TextEdit::cursorPositionChanged);
     connect(textEdit,SIGNAL(textChanged()),this,SLOT(contentChanged()));
+    textEdit->setUndoRedoEnabled(true);
     layout->addWidget(textEdit,1,0,1,11);
 
 
@@ -136,6 +141,14 @@ TextEdit::TextEdit(QWidget *parent)
     alignmentChanged(textEdit->alignment());
 
     textEdit->setFocus();
+
+    textEdit->setContextMenuPolicy(Qt::CustomContextMenu);
+
+    connect(textEdit, SIGNAL(customContextMenuRequested(const QPoint &)),
+            this, SLOT(showContextMenu(const QPoint &)));
+
+    hunspell = parent->getSpellChecker();
+    codec = parent->getTextCodec();
 
 }
 
@@ -231,6 +244,103 @@ void TextEdit::clipboardDataChanged()
 void TextEdit::contentChanged()
 {
     emit textChanged();
+
+    QString text = textEdit->toPlainText();
+    text = text.replace('.',' ');
+    text = text.replace(',',' ');
+    text = text.replace('-',' ');
+    text = text.replace('"',' ');
+    text = text.replace('?',' ');
+    text = text.replace('!',' ');
+    text = text.replace(';',' ');
+    text = text.replace(':',' ');
+    text = text.replace("'"," ");
+    QStringList list = text.split(' ',QString::SkipEmptyParts);
+    QStringList misspelled_words;
+    for (int i = 0 ; i < list.count() ; ++i)
+        if (list[i].length()>3)
+        if (!isSpellingCorrect(list[i]))
+            misspelled_words << list[i] ;
+
+
+    disconnect(textEdit,SIGNAL(textChanged()),this,SLOT(contentChanged()));
+
+    QTextDocument * doc = textEdit->document();
+    QTextCharFormat format;
+    format.setUnderlineColor(QColor(Qt::red));
+    format.setFontUnderline(true);
+    for (int i = 0 ; i < misspelled_words.count() ; ++i)
+    {
+        QTextCursor cursor;
+        cursor = doc->find(misspelled_words[i]);
+                cursor.mergeCharFormat(format);
+
+    }
+    connect(textEdit,SIGNAL(textChanged()),this,SLOT(contentChanged()));
+
+
+}
+
+bool TextEdit::isSpellingCorrect(const QString &word) const {
+    bool isOk = false;
+    try {
+        isOk = hunspell->spell(codec->fromUnicode(word).constData());
+    }
+    catch (...) {
+        isOk = false;
+    }
+    return isOk;
+}
+
+void TextEdit::showContextMenu(const QPoint & pos)
+{
+    QMenu* stdMenu= textEdit->createStandardContextMenu();
+    tc = textEdit->cursorForPosition(pos);
+    tc.select(QTextCursor::WordUnderCursor);
+    QString word = tc.selectedText();
+
+    if (!isSpellingCorrect(word))
+    {
+        QStringList suggestions = suggestCorrections(word);
+        QAction *first = stdMenu->actions().first();
+
+        for (int i = 0 ; i < suggestions.count() ; ++i)
+        {
+            QAction * action = new QAction(suggestions[i],stdMenu) ;
+            stdMenu->insertAction(first,action);
+            connect(action,SIGNAL(triggered()),this,SLOT(correct()));
+}
+        stdMenu->insertSeparator(first);
+    }
+
+    stdMenu->popup(textEdit->viewport()->mapToGlobal(pos));
+}
+
+QStringList TextEdit::suggestCorrections(const QString &word) {
+    QStringList suggestions;
+    char **suggestWordList = NULL;
+
+    try {
+        // Encode from Unicode to the encoding used by current dictionary
+        int count = hunspell->suggest(&suggestWordList, codec->fromUnicode(word).constData());
+
+        for (int i = 0; i < count; ++i) {
+            QString suggestion = codec->toUnicode(suggestWordList[i]);
+            suggestions << suggestion;
+            free(suggestWordList[i]);
+        }
+    }
+    catch (...) {
+        qDebug() << "Error for keyword:" << word;
+    }
+
+    return suggestions;
+}
+
+void TextEdit::correct(void)
+{
+    QAction * action = (QAction*)sender();
+    tc.insertText(action->text(),QTextCharFormat());
 }
 
 void TextEdit::insertImage()

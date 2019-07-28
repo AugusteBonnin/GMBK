@@ -20,7 +20,7 @@ Document *doc;
 QMenu * addSequelMenu;
 QListWidget * sequels;
 public:
-    explicit Form(QWidget *parent, Document *doc);
+    explicit Form(MainWindow *parent, Document *doc);
     ~Form();
 
     QFont getSequelsFont();

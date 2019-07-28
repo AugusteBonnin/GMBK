@@ -1,4 +1,5 @@
 #include "form.h"
+#include "mainwindow.h"
 #include "ui_form.h"
 
 #include <QFontDialog>
@@ -7,13 +8,13 @@
 #include <QStandardItem>
 #include <QTextBrowser>
 
-Form::Form(QWidget *parent,Document * doc) :
+Form::Form(MainWindow *parent,Document * doc) :
     QWidget(parent),
     ui(new Ui::Form),doc(doc)
 {
     ui->setupUi(this);
 
-    abstract = new TextEdit(this);
+    abstract = new TextEdit(parent);
     ui->abstractLayout->addWidget(abstract);
     connect(abstract,SIGNAL(textChanged()),this,SLOT(absract_textChanged()));
 
@@ -47,7 +48,7 @@ Form::Form(QWidget *parent,Document * doc) :
     ui->downChapterButton->setToolTip(tr("Déplace le chapitre sélectionné vers le bas de la liste"));
     ui->downChapterButton->setStatusTip(tr("Déplace le chapitre sélectionné vers le bas de la liste"));
 
-    text = new TextEdit(this);
+    text = new TextEdit(parent);
     ui->textLayout->addWidget(text);
     connect(text,SIGNAL(textChanged()),this,SLOT(text_textChanged()));
 

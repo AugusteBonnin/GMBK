@@ -58,18 +58,22 @@
 #include <QComboBox>
 #include <QFontComboBox>
 #include <QTextEdit>
+#include <QTextCodec>
+
+#include <hunspell/hunspell.hxx>
 
 class QComboBox;
 class QFontComboBox;
 class QTextEdit;
 class QTextCharFormat;
+class MainWindow;
 
 class TextEdit : public QWidget
 {
     Q_OBJECT
 
 public:
-    TextEdit(QWidget *parent = 0);
+    TextEdit(MainWindow *parent);
 
  QString toHtml();
  void setHtml(QString html);
@@ -90,6 +94,10 @@ private slots:
     void clipboardDataChanged();
     void contentChanged();
     void insertImage();
+
+    void showContextMenu(const QPoint &pos);
+
+    void correct();
 private:
 
     void mergeFormatOnWordOrSelection(const QTextCharFormat &format);
@@ -112,6 +120,12 @@ private:
     QComboBox *comboSize;
 
     QTextEdit *textEdit;
+
+    Hunspell * hunspell;
+    QTextCodec * codec;
+    bool isSpellingCorrect(const QString &word) const;
+    QStringList suggestCorrections(const QString &word);
+    QTextCursor tc;
 signals:
     void textChanged();
 };
