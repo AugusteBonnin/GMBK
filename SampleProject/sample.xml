@@ -1,5 +1,5 @@
 <!DOCTYPE GMBK>
-<GameBook current="21" free="38" title="Sans titre" start="index" author="auguste">
+<GameBook title="Sans titre" free="38" author="auguste" start="index" current="22">
     <History>
         <ID id="index"/>
         <ID id="14"/>
@@ -35,208 +35,210 @@ p, li { white-space: pre-wrap; }
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:11pt;">4ème de couverture&lt;/span>&lt;/p>&lt;/body>&lt;/html></Abstract>
     <Chapters>
         <Chapter title="Chapitre 1">
-            <Page id="index" title="Sans titre">
+            <Page title="Sans titre" id="index">
                 <Text>
 
-&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:18pt; font-weight:600; text-decoration: underline;">Exemple&lt;/span>&lt;/p></Text>
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:18pt; font-weight:600; text-decoration: underline;">Exemple&lt;/span>&lt;/p>
+&lt;p align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Julie était arrivée à Beaucaire à la fin de l'été. Elle n'avait pas eu trop de mal à se trouver un petit appartement propret, qu'elle avait meublé et fleuri dans les quelques jours avant la rentrée. &lt;span style=" text-decoration: underline;">Jusqu&lt;/span>'ici son statut de jeune institutrice ne lui avait permis que d'aller de ZUP en ZEP, mais elle avait enfin accumulé assez de points pour se faire muter au soleil face à une classe &amp;quot;normale&amp;quot;. Oh de toute façon elle ne s'occuperait que des &amp;quot;grandes sections&amp;quot; de maternelle, à un âge où les différences &lt;span style=" text-decoration: underline;">socio&lt;/span>-éducatives ne se faisaient pas encore trop sentir. Et après tout, elle en avait vu d'autres et elle était investie, d'une part, d'un profond amour des enfants, et d'autre part, d'un vrai respect pour l'école de la république qui lui avait permis de &amp;quot;s'en sortir&amp;quot;. Issue d'un milieu modeste, c'était la lecture qui lui avait donnée les bases de son éducation et l'avait portée naturellement jusqu'aux études supérieures, et c'était la lecture dont elle enseignerait maintenant les bases à une bande de braillards qu'elle aimait déjà d'avance. Évidemment elle était un peu seule ici, ayant abandonné ses copines dans la grisaille parisienne, mais elle ne tarderait pas à faire de nouvelles connaissances et elle avait un forfait mobile illimité. Du coup, pour le moment, entre les conseils avisés de sa mère et les copines curieuses de savoir comment elle s'était installée, elle n'avait pas trouvé trop le temps de s'ennuyer. Pour le reste les allers-retours au magasin d'ameublement-la faible contenance de sa petite voiture l'y forçait-et dans les enseignes 0de jardinerie-elle avait végétalisé tout le balcon et une partie de l'appartement-l'avaient totalement occupée. Quant aux mecs, et bien, elle était partie célibataire de Paris et elle arrivait célibataire. Tout au plus laissait-elle derrière elle un flirt, Gérard, un commercial de deux ans son aine avec lequel elle avait couché quelques fois, &amp;quot;pour passer le temps&amp;quot;. Mais rien de bien construit,  rien de concret...&lt;/p></Text>
                 <Sequels>
-                    <ID id="14" title="Début"/>
+                    <ID title="Début" id="14"/>
                 </Sequels>
             </Page>
         </Chapter>
         <Chapter title="Chapitre 2">
-            <Page id="14" title="Page 14">
+            <Page title="Page 14" id="14">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">C'était la fin du mois de Novembre et la nuit tombait tôt. Julie s'occupait de la garderie en cette fin d'après-midi et elle voyait avec in&lt;span style=" text-decoration: underline;">qu&lt;/span>iétude partir les derniers enfants, que leurs parents venaient chercher un par un. De l'autre côté de la rue, en face de l'école primaire, une bande d'ados tuait le temps sur les bancs en fumant des cigarettes taxées et en se hélant bruyamment. Et justement, elle avait choisi ce jour là pour sortir en jupe...Connaissant un peu, pour avoir enseigné en ZEP, les mœurs de ce genre de jeunes, surtout quand ils sont en groupe, surtout quand il n'y a que des mecs, elle n'avait absolument aucun doute sur le fait qu'elle allait se faire emmerder à la sortie. Peut-être se limiterait-ce à des sifflements gênants, à des compliments de mauvais goût, mais on ne savait jamais où pouvait s'arrêter la surenchère dans ces concours de jeunes coqs. Oh, ils ne devaient pas avoir plus de treize ou quatorze ans, mais ils étaient nombreux, et ces fils de parents démissionnaires vivaient avec un sentiment d'impunité qui leur autorisait tout. Elle songea un instant à appeler la police, mais bientôt cette idée lui parut ridicule. &amp;quot;S'il fallait faire accompagner d'un agent toutes les filles sexy du pays, l'armée n'y suffirait pas&amp;quot; entendait-elle déjà lui rire au nez le standardiste du 17. Et il ne restait qu'une petite fille, Camille, et son père, en retard comme souvent, entrait déjà dans la cour d'un pas pressé. Elle fit mettre son manteau à la petite, enfila le sien, éteignit la lumière et prenant l'enfant par la main, se dirigea vers la porte à la lueur des lampadaires en anticipant l'arrivée de Pierre. Elle ferma la porte à clef et se retourna au moment où il arrivait. &amp;quot;Je suis confus je vous ai fait attendre...&amp;quot; fit-il essoufflé. &amp;quot;J'ai un service à vous demander&amp;quot; le coupa-t-elle, &amp;quot;ces gosses me font peur&amp;quot; dit-elle en indiquant du regard le trottoir d'en face. &amp;quot;Vous pourriez me raccompagner &lt;span style=" text-decoration: underline;">jusqu&lt;/span>'au coin de la rue, qu'on soit hors de vue?&amp;quot; . &amp;quot;Bien sûr&amp;quot; répondit-il d'un ton rassurant, heureux d'avoir l'occasion de se faire pardonner son retard. &amp;quot;Allons-y&amp;quot; lança-t-il en tendant la main à Camille qui s'en saisit aussitôt. Julie leur emboîta le pas, et tandis qu'ils passaient devant les jeunes elle sentit les regards peser sur elle dans un silence assourdissant. Bientôt un sifflement admiratif vint rompre le calme de la nuit et elle entendit derrière elle la troupe s'ébranler. Elle n'osa pas se retourner mais elle se savait suivie. Au coin de la rue elle apostropha Pierre :&amp;quot;S'il vous plaît, raccompagnez moi jusqu'à chez moi, ils ne vont pas me lâcher&amp;quot;. Pierre jeta un coup d’œil par dessus son épaule et acquiesça. &amp;quot;Par où habitez vous?&amp;quot; lui demanda-t-il. Elle indiqua la direction d'un geste de la main et il enchérit &amp;quot;C'est aussi notre chemin.&amp;quot;&lt;/p>
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Derrière eux, loin d'abandonner la traque, le groupe de sauvageons prit le même virage qu'eux et semblait s'énerver. De la rumeur dans leur dos Pierre et Julie distinguaient des mots comme &amp;quot;bonasse&amp;quot;,&amp;quot;boloss&amp;quot; etc... Ils accélérèrent le pas mais Camille avait du mal à suivre leur rythme et Julie, en talons hauts, manquait de se fouler la cheville à chaque pas. &amp;quot;C'est encore loin ?&amp;quot;demanda Pierre. &amp;quot;On y presque.&amp;quot; répondit Julie &amp;quot;c'est au 15, le petit immeuble blanc au bout de la rue&amp;quot;.&amp;quot;Bon Camille donne la main à ta maîtresse&amp;quot; dit-il à sa fille d'un ton qui ne souffrait pas de contestation et elle obtempéra.&amp;quot;Allez-y je vous rejoins.&amp;quot; fit-il, et il se retourna. Surpris les jeunes s'arrêtèrent brutalement, intimidés par l'adulte qui osait leur tenir tête.Ils l'invectivaient de loin mais se tenaient prudemment hors du halo iodé de l'éclairage public qui semblait nimber Pierre d'une aura protectrice.&lt;/p>
 &lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p></Text>
                 <Sequels>
-                    <ID id="15" title="Soudain un jeune se saisit d'une pierre..."/>
-                    <ID id="16" title="Julie sortit son téléphone d'une main et composa le 17..."/>
-                    <ID id="18" title="Julie retira ses chaussures et prit l'enfant dans ses bras..."/>
+                    <ID title="Soudain un jeune se saisit d'une pierre..." id="15"/>
+                    <ID title="Julie sortit son téléphone d'une main et composa le 17..." id="16"/>
+                    <ID title="Julie retira ses chaussures et prit l'enfant dans ses bras..." id="18"/>
                 </Sequels>
             </Page>
-            <Page id="15" title="Page 15">
+            <Page title="Page 15" id="15">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Soudain un jeune se saisit d'une caillasse &lt;span style=" text-decoration: underline;">qu&lt;/span>i traînait sur le bord de la route et la lança dans la direction de Pierre, bientôt imité par ses compagnons. Le sang de Pierre ne fit qu'un tour, et esquivant les projectiles il courut à leur rencontre. Mais son élan fut brisé net par un jet plus habile que les autres qui l'atteint en plein visage. Il passa une main sur son front et la retira rougie de sang frais. Effrayée par l'hémorragie la petite bande battit en retraite et se dispersa dans les rues avoisinantes. Pierre fit quelques pas vers eux mais ils étaient déjà loin et il saignait abondamment. Rompant un combat qui n'avait pas commencé, il reprit son chemin d'un pas tranquille.&lt;/p></Text>
                 <Sequels>
-                    <ID id="17" title="Julie , qui avait assisté à la scène du bout de la rue, composa le 17."/>
-                    <ID id="19" title="Julie retire ses chaussures et prend l'enfant dans ses bras"/>
+                    <ID title="Julie , qui avait assisté à la scène du bout de la rue, composa le 17." id="17"/>
+                    <ID title="Julie retire ses chaussures et prend l'enfant dans ses bras" id="19"/>
                 </Sequels>
             </Page>
-            <Page id="16" title="Page 16">
+            <Page title="Page 16" id="16">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Julie sortit son téléphone d'une main et composa le 17...Au bout de quelques instant elle fut mise en contact avec l'opérateur de police-secours et lui expliqua la situation d'une voix tremblante.&amp;quot;Dépêchez-vous, ils vont le tuer!&amp;quot; asséna-t-elle à son interlocuteur qui tentait de la pondérer. A sa main gauche, Camille s'était mise à pleurer de sa peur communicative. Se retournant de temps à autre dans sa fuite, elle voyait Pierre, solitaire, faire face à la dizaine de gamins surexcités qui l'insultaient, frustrés, à distance respectueuse.&lt;/p>
 &lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p></Text>
                 <Sequels>
-                    <ID id="17" title="Soudain un jeune se saisit d'une caillasse et la lança vers Pierre, qui, ébloui, la reçut en pleine figure."/>
-                    <ID id="20" title="Julie retira ses chaussures et prit l'enfant dans ses bras..."/>
+                    <ID title="Soudain un jeune se saisit d'une caillasse et la lança vers Pierre, qui, ébloui, la reçut en pleine figure." id="17"/>
+                    <ID title="Julie retira ses chaussures et prit l'enfant dans ses bras..." id="20"/>
                 </Sequels>
             </Page>
-            <Page id="17" title="Page 17">
+            <Page title="Page 17" id="17">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Julie, qui avait assisté à la scène du bout de la rue, décrivit la situation au téléphone en contenant sa panique et elle raccrocha quand on lui promit de lui envoyer une patrouille. Mais à quoi bon maintenant,il était trop tard; le mal était fait et elle se sentait atrocement coupable.&lt;/p></Text>
                 <Sequels>
-                    <ID id="21" title="Julie retira ses chaussures et prit l'enfant dans ses bras."/>
+                    <ID title="Julie retira ses chaussures et prit l'enfant dans ses bras." id="21"/>
                 </Sequels>
             </Page>
-            <Page id="18" title="Page 18">
+            <Page title="Page 18" id="18">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Julie retira ses chaussures et prit l'enfant dans ses bras. Elle se mit à courir sur l'asphalte grossier qui lui meurtrissait les pieds en cachant la tête de Camille dans son épaule.de la main qui tenait ses escarpins. De l'autre, elle fouillait son sac tout en soutenant l'enfant, pour en extraire son téléphone.&lt;br />&lt;/p></Text>
                 <Sequels>
-                    <ID id="19" title="Soudain un jeune se saisit d'une caillasse et la lança dans leur direction. Ebloui, Pierre la reçut en pleine figure et, effrayés par leur méfait, les jgamins s'enfuirent."/>
-                    <ID id="20" title="Son téléphone enfin en main, Julie composa le 17 et décrivit la situation d'une voix haletante."/>
+                    <ID title="Soudain un jeune se saisit d'une caillasse et la lança dans leur direction. Ebloui, Pierre la reçut en pleine figure et, effrayés par leur méfait, les jgamins s'enfuirent." id="19"/>
+                    <ID title="Son téléphone enfin en main, Julie composa le 17 et décrivit la situation d'une voix haletante." id="20"/>
                 </Sequels>
             </Page>
-            <Page id="19" title="Page 19">
+            <Page title="Page 19" id="19">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Camille pleurait dans ses bras, s'agrippant à ses vêtements, et tout en la soutenant de la main &lt;span style=" text-decoration: underline;">qu&lt;/span>i tenait ses escarpins elle fouilla son sac de l'autre pour trouver son téléphone. C'était un peu tard maintenant mais elle décrivit posément la situation à l'opérateur du 17 qu'elle avait composé. &amp;quot;J'ai peur qu'ils reviennent et mon ami est blessé...&amp;quot;&lt;/p></Text>
                 <Sequels>
-                    <ID id="21" title="Elle raccrocha, inquiète et se sentant impuissante et coupable, quand on lui promit le passage d'une patrouille."/>
+                    <ID title="Elle raccrocha, inquiète et se sentant impuissante et coupable, quand on lui promit le passage d'une patrouille." id="21"/>
                 </Sequels>
             </Page>
-            <Page id="20" title="Page 20">
+            <Page title="Page 20" id="20">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Dans sa course, Julie soutenait l'enfant contre elle qui s&amp;quot;agrippait à ses vêtements en hurlant &amp;quot;Papa&amp;quot; d'une petite voix désespérée, assistant par dessus l'épaule de sa maîtresse au face à face inégal.&lt;/p></Text>
                 <Sequels>
-                    <ID id="21" title="Soudain un jeune saisit une caillasse et la lança dans la direction de l'adulte, qui ébloui, la reçut en pleine figure. Effrayés de leur propre méfait les gamins s'enfuirent."/>
+                    <ID title="Soudain un jeune saisit une caillasse et la lança dans la direction de l'adulte, qui ébloui, la reçut en pleine figure. Effrayés de leur propre méfait les gamins s'enfuirent." id="21"/>
                 </Sequels>
             </Page>
-            <Page id="21" title="Page 21">
+            <Page title="Page 21" id="21">
                 <Text>
 
 &lt;p align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Camille pleurnichait dans les bras de sa maîtresse qui la réconfortait tant bien que mal, la maintenant sur son épaule pour lui éviter le spectacle de son père ensanglanté. Pierre arriva au 15, où Julie l'attendait. &amp;quot;C'est probablement pas grand'chose mais ça saigne beaucoup&amp;quot; fit-il en se voulant rassurant. &amp;quot;Montez, on va désinfecter ça&amp;quot; répondit-elle simplement.&amp;quot;Je suis désolée&amp;quot;-&amp;quot;Vous n'y êtes pour rien, ça m'apprendra à vouloir jouer au héros&amp;quot;. Ils gravirent les quelques marches qui les séparaient de l'appartement de Julie, et se dégageant une main pour fouiller dans son sac, elle sortit ses clefs et ouvrit la porte. &amp;quot;Suivez moi à la salle de bain&amp;quot; dit-elle en déposant l'enfant doucement sur le canapé. Pendant qu'elle sortait du placard du coton, de l'alcool et des pansements, Pierre se passa la tête sous l'eau. Se relevant devant le miroir pour constater les dégâts, il glissa &amp;quot;c'est l'arcade sourcilière&amp;quot;.&amp;quot;Je vois&amp;quot; fit-elle en lui tamponnant le sourcil avec un coton alcoolisé. Surpris par la soudaine douleur il serra les dents. &amp;quot;Papa...&amp;quot; gémit Camille à sa place. Elle avait quitté, inquiète, le salon, et se tenait dans l'encadrement de la porte, les yeux rougis. &amp;quot;C'est rien&amp;quot; répondit son père, auquel Julie d'une main habile, avait posé un pansement.&amp;quot;C'est qu'un petit bobo&amp;quot;.Camille reniflait toujours alors Julie reprit:&amp;quot;on va faire un bisou et ce sera fini&amp;quot;, et s'exécutant elle déposa un bref baiser sur le pansement. &amp;quot;Je te...euh...vous sers un remontant?&amp;quot; dit-elle s'apercevant trop tard qu'elle avait parlé au père comme à la fille. &amp;quot;oh on peut se tutoyer, maintenant qu'on est liés par le sang, Mlle Lesage&amp;quot; répondit il en souriant.&amp;quot;Appelle moi Julie...Je dois avoir du whisky&amp;quot;&amp;quot;Ce sera parfait. Moi c'est Pierre...&amp;quot;&amp;quot;et du jus d'orange au frais pour Camille...&amp;quot;Ils discutaient depuis cinq minutes au salon, quand de la fenêtre une lumière bleue clignotante les avertit de l'arrivée de la police. Julie ouvrit en grand et interpella un des agents qui sortait de la voiture. &amp;quot;Vous arrivez trop tard, ils se sont enfuis...&amp;quot; &amp;quot;ils vous ont pas loupé&amp;quot; répondit-il en voyant la chemise de Pierre rouge de sang. &amp;quot;Vous voulez porter plainte?&amp;quot;&lt;br />&amp;quot;A quoi bon? Je serais incapable de les reconnaître...&amp;quot; &amp;quot;Comme vous voudrez...&amp;quot; fit-il en remontant dans son véhicule. Julie referma la fenêtre et ils reprirent leur discussion en sirotant leurs whiskies. &amp;quot;Je te dois une fière chandelle&amp;quot; &amp;quot;N'importe qui en aurait fait autant&amp;quot; &amp;quot;Hum..pas si sure de ça, tu es modeste...courageux et modeste...&amp;quot;&lt;/p></Text>
                 <Sequels>
-                    <ID id="1" title="suite"/>
+                    <ID title="suite" id="1"/>
                 </Sequels>
             </Page>
         </Chapter>
-        <Chapter title="Arbre n-aire">
-            <Page id="22" title="Intro du chapitre 3">
+        <Chapter title="Chapitre 4 : Arbre n-aire">
+            <Page title="Intro du chapitre 4" id="22">
                 <Text>
 
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Intro du chapitre 3&lt;/p>
-&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p></Text>
+&lt;pre align="justify" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Un samedi suivant, Pierre et Camille avaient passé une partie du tiède après-midi d'automne à se promener. Camille, le regard attiré par le tapis bleuté au milieu de la garrigue, avait cueilli un petit bouquet de cyclamens qu'elle tenait fermement dans sa main droite, l'autre dans celle de son père. Ils rentraient chez eux au soleil orangé des dernières heures de lumière, quand Camille reconnut l'immeuble de sa maîtresse. Elle apostropha Pierre : « On va voir si la maîtresse est là ? J'voudrais lui offrir mon bouquet... » « Si tu veux », lui répondit son père en souriant, enchanté de l'attention de sa fille. Ils escaladèrent donc les quelques marches et Pierre appuya brièvement sue le bouton de la sonnette. Quelques instants s'écoulèrent et la porte s'ouvrit sur Julie, le rose au joue, souriante elle aussi. « Bonjour &lt;span style=" text-decoration: underline;">Maitresse&lt;/span> ! » s'exclama Camille, « Bonjour Camille » lui rétorqua Julie en se penchant pour lui faire la bise. « Bonjour Pierre. » dit-elle sur un ton plus grave en se relevant. « Tiens c'est pour toi, c'est moi qui les ai cueillies » fit-elle en tendant son bouquet à Julie qui s'extasia :«  Que c'est gentil, merci beaucoup Camille. Je vais les mettre dans un verre avec un peu d'eau .» Effectivement le bouquet était à l'aune de la paume de l'enfant et un petit contenant suffirait sans doute. « Je vous fais pas rentrer, j'ai du monde » reprit-elle l'air un peu gêné. Une voix mâle résonna du salon : « C'est qui ? » « C'est rien, on a fini &lt;span style=" text-decoration: underline;">»dit&lt;/span>-elle à voix haute avant de murmurer à l'oreille de Camille un « merci encore » et de lui embrasser la joue. « Salut » asséna-t-elle à Pierre, qui la saluant à son tour d 'un air triste, se retourna en ramenant sa fillette vers l'extérieur. Julie claqua la porte et s'appuya quelques instants du front sur le chambranle. « Voilà le genre de &lt;span style=" text-decoration: underline;">coincidence&lt;/span> que j'aurais préféré éviter » pensa-t-elle et, reprenant le chemin du salon, elle soupira. « Une élève qui m'apporte des fleurs, si c'est pas mignon » fit-elle à l'homme qui, la voyant revenir ses fleurs à la main, l'interrogeait du regard. Elle saisit un verre dans le buffet, le posa sur la table basse et le remplit d'eau au pichet qui y &lt;span style=" text-decoration: underline;">trainait&lt;/span> déjà. Elle y déposa les fleurs du modeste bouquet, et  retrouvant son sourire elle tendit la main vers un autre verre. Gérard ne venait jamais les mains vide : Il était commercial itinérant pour &lt;span style=" text-decoration: underline;">Percod&lt;/span>-&lt;span style=" text-decoration: underline;">Rinard&lt;/span>, qui avait à la fois son siège social et une usine dans le patelin, et son coffre était toujours plein de bouteilles d'alcool qu'il écoulait pendant la semaine. Alors quand ils se retrouvaient, de temps en temps, comme Gérard venait se ré-achalander au siège, ils picolaient sérieusement, du pastis surtout – c'était l'alcool local. Elle s'en versa un trait, piocha deux trois glaçons dans le bol et compléta à l'eau du pichet. Puis elle mélangea son verre avec une petite cuillère et enfin le porta à ses lèvres. Elle n'en était pas à son premier et son sens du goût était déjà complètement annihilé. Les &lt;span style=" text-decoration: underline;">cacahouètes&lt;/span> avaient goût d'anis, les chips avaient goût d'anis, le saucisson avait goût d'anis, d'anis enfin auraient goût les baisers qu'ils échangeraient tout à l'heure. Car Gérard était avant tout un plan cul, ils picolaient ensemble, et ensuite, quand ils étaient bien chauds, ils baisaient. Sauvagement, presque violemment, sans tendresse, sans sentiments, elle savait à quoi s'attendre et cette régularité la rassurait. &lt;span style=" text-decoration: underline;">Evidemment&lt;/span>, elle aurait apprécié un peu plus de douceur, mais elle avait souffert dans le passé de la séparation d'avec des garçons justement doux et attachants, et -pour le moment- cette absence d'implication de part et d'autre lui convenait. Demain, son coup tiré, Gérard &lt;span style=" text-decoration: underline;">disparaitrait&lt;/span> pour un temps, assez pour qu'elle oublie sa vulgarité et son manque de tact, et qu'elle se prête de nouveau à cet exutoire mutuel.&lt;/pre>
+&lt;pre align="justify" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Le soleil s'était couché sur quelques verres supplémentaires, et les langues commençaient à coller au palais, rendant la discussion plus difficile. Gérard décida donc d'un coup qu'il était temps d'entamer les hostilités. Il attira Julie prés de lui, sans décoller du canapé, et se mit en devoir de la déshabiller tout en l'embrassant goulûment. Elle, prise de court, posa son verre entamé sur la table basse et retira son tee-shirt. Lui tirait d'une main le &lt;span style=" text-decoration: underline;">legging&lt;/span> et sa petit culotte en dentelle tandis que de l'autre il dégrafait son soutien gorge, qui dégagea une poitrine ferme aux tétons déjà tendus. Il quitta sa bouche pour asseoir la sienne sur la pointe d'un sein qu'il cercla de sa langue pendant qu'elle s'ingéniait à défaire un à un les boutons de sa chemise, les pieds encore pris dans sa culotte et son legging qu'il lui avait abandonné aux chevilles. Elle se dégagea un instant pour se désincarcérer, alors qu'il défaisait sa ceinture, et retirait pantalon et slip, qui révélèrent une franche érection. Il glissa de force sa main entre les cuisses encore serrées, et insinuant en elle un doigt rageur, il l'embrassa de nouveau avidement tandis qu'elle le masturbait doucement. Quelques instants s'écoulèrent à ce rythme, quand Gérard se sépara d'elle pour la contempler. « Mettons un peu d'ordre dans tout ça » dit-il.&lt;/pre>
+&lt;p align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> &lt;/p></Text>
                 <Sequels>
-                    <ID id="23" title="Pas de texte"/>
-                    <ID id="24" title="Pas de texte"/>
-                    <ID id="25" title="Pas de texte"/>
+                    <ID title="Pas de texte" id="23"/>
+                    <ID title="Pas de texte" id="24"/>
+                    <ID title="Pas de texte" id="25"/>
                 </Sequels>
             </Page>
-            <Page id="23" title="A">
+            <Page title="A" id="23">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">A&lt;/p>
 &lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p></Text>
                 <Sequels>
-                    <ID id="26" title="Pas de texte"/>
-                    <ID id="27" title="Pas de texte"/>
+                    <ID title="Pas de texte" id="26"/>
+                    <ID title="Pas de texte" id="27"/>
                 </Sequels>
             </Page>
-            <Page id="24" title="B">
+            <Page title="B" id="24">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">B&lt;/p></Text>
                 <Sequels>
-                    <ID id="28" title="Pas de texte"/>
-                    <ID id="29" title="Pas de texte"/>
+                    <ID title="Pas de texte" id="28"/>
+                    <ID title="Pas de texte" id="29"/>
                 </Sequels>
             </Page>
-            <Page id="25" title="C">
+            <Page title="C" id="25">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">C&lt;/p></Text>
                 <Sequels>
-                    <ID id="30" title="Pas de texte"/>
-                    <ID id="31" title="Pas de texte"/>
+                    <ID title="Pas de texte" id="30"/>
+                    <ID title="Pas de texte" id="31"/>
                 </Sequels>
             </Page>
-            <Page id="27" title="AC">
+            <Page title="AC" id="27">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">AC&lt;/p></Text>
                 <Sequels>
-                    <ID id="33" title="Pas de texte"/>
+                    <ID title="Pas de texte" id="33"/>
                 </Sequels>
             </Page>
-            <Page id="26" title="AB">
+            <Page title="AB" id="26">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">AB&lt;/p></Text>
                 <Sequels>
-                    <ID id="32" title="Pas de texte"/>
+                    <ID title="Pas de texte" id="32"/>
                 </Sequels>
             </Page>
-            <Page id="28" title="BA">
+            <Page title="BA" id="28">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">BA&lt;/p></Text>
                 <Sequels>
-                    <ID id="34" title="Pas de texte"/>
+                    <ID title="Pas de texte" id="34"/>
                 </Sequels>
             </Page>
-            <Page id="29" title="BC">
+            <Page title="BC" id="29">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">BC&lt;/p></Text>
                 <Sequels>
-                    <ID id="35" title="Pas de texte"/>
+                    <ID title="Pas de texte" id="35"/>
                 </Sequels>
             </Page>
-            <Page id="30" title="CA">
+            <Page title="CA" id="30">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">CA&lt;/p></Text>
                 <Sequels>
-                    <ID id="36" title="Pas de texte"/>
+                    <ID title="Pas de texte" id="36"/>
                 </Sequels>
             </Page>
-            <Page id="31" title="CB">
+            <Page title="CB" id="31">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">CB&lt;/p></Text>
                 <Sequels>
-                    <ID id="37" title="Pas de texte"/>
+                    <ID title="Pas de texte" id="37"/>
                 </Sequels>
             </Page>
-            <Page id="32" title="ABC">
+            <Page title="ABC" id="32">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ABC&lt;/p></Text>
                 <Sequels/>
             </Page>
-            <Page id="33" title="ACB">
+            <Page title="ACB" id="33">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ACB&lt;/p></Text>
                 <Sequels/>
             </Page>
-            <Page id="34" title="BAC">
+            <Page title="BAC" id="34">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">BAC&lt;/p></Text>
                 <Sequels/>
             </Page>
-            <Page id="35" title="BCA">
+            <Page title="BCA" id="35">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">BCA&lt;/p></Text>
                 <Sequels/>
             </Page>
-            <Page id="36" title="CAB">
+            <Page title="CAB" id="36">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">CAB&lt;/p></Text>
                 <Sequels/>
             </Page>
-            <Page id="37" title="CBA">
+            <Page title="CBA" id="37">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">CBA&lt;/p></Text>
@@ -244,60 +246,60 @@ p, li { white-space: pre-wrap; }
             </Page>
         </Chapter>
         <Chapter title="Suites pseudo-aléatoires">
-            <Page id="1" title="Page 1">
+            <Page title="Page 1" id="1">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Julie se réveilla de bonne heure, avec une gueule de bois monumentale. Dehors, le soleil brillait, et ses rayons l'avaient tirée précocement du sommeil. Les volets étaient restés ouverts et il régnait dans la chambre une douce chaleur. Elle était étendue sur le dos, en soutien-gorge et petite culotte, et elle nota que ses sous-vêtements étaient encore humides malgré la température. Elle se releva en s'appuyant du dos sur le mur, constata que ses habits n'étaient pas, comme à son habitude, posés sur une chaise à côté du lit, et tenta de rassembler ses esprits. La veille au soir, elle avait été invitée par des parents d'élèves à une petite soirée, &amp;quot;pour faire un peu connaissance&amp;quot; avaient-ils dit. Elle ne sortait plus si souvent et elle avait accepté immédiatement, ravie d'avoir l'occasion de s'amuser un peu.Elle avait enfilé une mini jupe noire et un petit chemisier à l'encolure sage, avait opté pour un maquillage discret et s'était rendue à pied chez ses hôtes, qui habitaient le quartier. Elle était arrivée à une heure raisonnable, le soleil se couchait et les invités arrivaient progressivement.Elle avait reconnu d'autres parents d'élèves mais la plupart des convives ne lui étaient pas familiers, alors elle s'était maintenue un peu à l'écart, moins à l'aise avec les parents qu'elle ne l'était avec leurs enfants. C'est alors que Pierre avait fait son apparition, une bouteille de vin à la main. Elle l'avait salué de loin, d'un sourire et d'un geste de la main, et l'avait suivi des yeux tandis qu'il allait poser sa bouteille parmi les autres liquides, les salades et les quiches qui tronaient sur une table dans un coin du salon. Ensuite ? Elle se concentra un peu pour faire taire le martèlement de ses pulsations cardiaques qui résonnait dans ses tempes. Elle ferma les yeux et tenta de reconstituer la soirée.&lt;/p></Text>
                 <Sequels>
-                    <ID id="2" title="Elle s'était préparé un whisky-coca léger et l'avait siroté sur le canapé."/>
-                    <ID id="3" title="Elle avait quitté le salon pour la cuisine où un barman improvisé servait des &quot;téquila-paf&quot; à tous ceux qui passaient."/>
-                    <ID id="4" title="Elle s'était concocté un whisky-coca correctement dosé et l'avait avalé en trois gorgées."/>
-                    <ID id="5" title="Elle s'était confectionné un &quot;bloody-mary&quot; parfumé au sel de céleri."/>
+                    <ID title="Elle s'était préparé un whisky-coca léger et l'avait siroté sur le canapé." id="2"/>
+                    <ID title="Elle avait quitté le salon pour la cuisine où un barman improvisé servait des &quot;téquila-paf&quot; à tous ceux qui passaient." id="3"/>
+                    <ID title="Elle s'était concocté un whisky-coca correctement dosé et l'avait avalé en trois gorgées." id="4"/>
+                    <ID title="Elle s'était confectionné un &quot;bloody-mary&quot; parfumé au sel de céleri." id="5"/>
                 </Sequels>
             </Page>
-            <Page id="2" title="Page 2">
+            <Page title="Page 2" id="2">
                 <Text>
 
 &lt;p align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Elle s'était préparé un whisky-coca léger et l'avait siroté sur le canapé. Presqu'aussitot, Pierre était venu s'assoir à côté d'elle et avait engagé la conversation, un verre de &amp;quot;cuba-libre' en main. Il avait confié sa fille à ses parents pour le week-end et savourait lui aussi ces instants de liberté. Ils avaient discuté quelques minutes, puis un inconnu avait interpellé Pierre, insistant pour lui présenter quelqu'un et il s'était levé, l'abandonnant à son sort. De toute façon son verre était vide et elle se leva à son tour pour aller le remplir. Elle hésita quelques instants, et, observant que tous les ingrédients étaient réunis sur la table, se confectionna un &amp;quot;bloody-mary&amp;quot; au sel de céleri. L'alcool commençait à faire son effet, il faisait chaud dans le salon où une partie de l'assemblée dansait dans la pénombre sur des airs actuels et elle décida d'aller prendre un peu l'air sur le balcon. N'osant se joindre aux groupes de fumeurs inconnus qui le peuplaient, elle avisa un autre solitaire à l'extrémité de la terrasse et brisa la glace. C'était le frère de l'hôtesse, il détonnait avec l'allure généralé des jeunes parents avec ses cheveux longs et sa barbe de trois jours. Il fumait un grosse cigarette roulée dont il émanait un parfum inhabituel, qu'il lui tendit au bout d'un moment.&amp;quot;Qu'est-ce que c'est?&amp;quot; avait-elle demandé. &amp;quot;Un copain m'a ramené ça d'Amsterdam, c'est de la bombe.&amp;quot; avait-il répondu. Curieuse et décidée à s'amuser, elle avait porté le joint à ses lèvres et avait tiré deux trois bouffées, s'étouffant et toussant au passage.Elle avait senti rapidement une impression de chaleur monter à sa tête et avait savouré le vent frais du soir qui la rafraichissait. Elle avait remercié son interlocuteur d'un clin d'oeil, et l'avait quitté, posant son verre vide pour aller se refaire une beauté à la salle de bain.Entre deux autres coquettes occupées comme elle à se repeindre le visage, elle s'était trouvée l'air un peu pâle et avait rehaussé ses pommettes d'une touche de rose. Satisfaite, elle était retournée au salon où elle avait aperçu Pierre, assis sur le canapé.Elle s'était assise docement à côté de lui, espérant le distraire de sa conversation avec une blondasse et effectivement il s'était détourné rapidement pour lui parler. Décidément, cet homme était charmant, ses paroles étaient suaves et elle se sentait bien avec lui. Mais très vite, étourdie par les mélanges d'alcools et de cannabis, elle ne s'était plus sentie à la hauteur pour entretenir une conversation sensée et elle s'était découverte brusquement d'alcool triste.Elle avait rompu la discussion brutalement, était allée se servir un autre whisky-coca qu'elle avait gobé d'un trait, puis une vodka-pomme avalée tout aussi rapidement, et, déjà titubante, elle s'était dirigée vers la cuisine où depuis tout à l'heure un fanfaron servait des &amp;quot;téquila-paf&amp;quot; à tous ceux qui se présentaient. Elle s'était soumise au rituel et aprés avoir léché du sel sur le dos de sa main avait avalé cul-sec un verre de téquila. Et après?&lt;br />&lt;br />&lt;/p></Text>
                 <Sequels>
-                    <ID id="6" title="Suite"/>
+                    <ID title="Suite" id="6"/>
                 </Sequels>
             </Page>
-            <Page id="3" title="Page 3">
+            <Page title="Page 3" id="3">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Elle avait quitté le salon pour la cuisine où un barman improvisé servait des &amp;quot;téquila-paf&amp;quot; à tous ceux qui passaient.Décidée à s'amuser un peu, elle s'était saupoudrée la main de sel, l'avait léché gouluement avant de gober sa téquila. Rassérénée, elle était retournée au salon danser sur un air familier et elle avait enchainé une vodka-pomme légère et un whisky-coca très coca. Avisant que Pierre était seul sur le canapé, elle était venue s'asseoir auprès de lui et avait engagé la conversation.Il avait laissé sa fille chez ses parents pour le week-end et était comme elle, libre comme l'air. Il lui avait traversé l'esprit qu'il devait être comme elle le seul célibataire de la soirée et que ça tombait bien. Mais l'alcool aidant, elle avait brusquement senti la chaleur du salon où les danseurs continuaient à s'agiter et s'était levée pour aller à la salle de bain voir si son maquillage tenait encore. Se trouvant un peu rougeaude, elle s'était poudrée d'un peu de riz avant d'aller prendre l'air sur le balcon. Là, savourant la fraicheur du vent du soir, elle avait fait la connaissance du frèrre de l'hôtesse, un babos mal rasé et mal peigné qui fumait un joint dans son coin.Après quelques instants de discussion, il le lui avait tendu en lui confiant que c'était &amp;quot;de la bombe, en provenance directe d'Amsterdam&amp;quot; et elle avait tiré deux trois lattes, en s'éfforçant d'être discrète, entourée qu'elle était des parents de ses élèves.Elle l'avait quitté avec un clin d'oeil complice, se disant que Pierre n'était finalement pas le seul célibataire de la soirée. S'en retournant au salon, elle avait avisé que tous les ingrédients étaient réunis pour se concocter un &amp;quot;bloody-mary&amp;quot; et elle s'en prépara un. Alors qu'elle en avalait la première gorgée, elle s'était aperçue que Pierre était de nouveau sur le canapé, en grande conversation avec une blondasse sans intérêt qui ne le quittait pas des yeux et elle décida de s'interposer.Elle avait défait un bouton de plus de son chemisier, remonté sa jupe d'un cran, avalé sa salive er était allée s'asseoir en tailleur à leurs pieds. D'abord timide et attentive, elle s'était rapidement imposée dans la conversation au point que la blonde, dégoûtée, avait fini par lâcher l'affaire et était partie voir ailleurs si elle y était, tandis qu'elle, complètement désinhibée, couvait Pïerre d'un flot de paroles. Elle se sentait bien avec lui et ne prêtait presque pas attention à ce qu'elle lui disait tant son sourire exprimait sa satisfaction.Pourtant, au bout d'un moment, elle avait été prise de l'idée absurde qu'il fallait se faire désirer et l'avait quitté pour aller se verser un whisky-coca qu'elle avait avalé d'un trait, lui tournant ostensiblement le dos. Et après ?&lt;/p></Text>
                 <Sequels>
-                    <ID id="6" title="Suite"/>
+                    <ID title="Suite" id="6"/>
                 </Sequels>
             </Page>
-            <Page id="4" title="Page 4">
+            <Page title="Page 4" id="4">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Elle s'était concocté un whisky-coca correctement dosé et l'avait avalé en trois gorgées. Puis sentant la chaleur envahir progressivement son corps, elle était allée prendre l'air sur le balcon. Là, désertant les groupes de fumeurs inconnus elle était allée s'accouder à la balustrade, savourant le vent du soir qui la rafraichissait un peu. Sentant une odeur inhabituelle, elle avait observé un instant un homme à la mine patibulaire, mal fringué, mal rasé qui fumait un joint dans coin, avant de se rapprocher de lui et d'engager la conversation. &amp;quot;C'est quoi?&amp;quot; avait-elle demandé d'un air faussement naïf. &amp;quot;C'est de la bombe, bébé, direct d'Amsterdam.&amp;quot; avait-il répondu l'air entendu. Elle avait pris le pétard qu'il lui avait tendu, aspiré profondément la fumée en toussant un peu au passage et le lui avait rendu en le remerciant d'un clin d'oeil. Elle l'avait quitté pour se remplir un aure verre de whisky-coca, avalé d'un trait, suivi d'une vodka-pomme qu'elle sirota un peu plus longuement en contemplant les danseurs qui s'agitaient dans un coin du salon.Son verre fini, elle s'était avisée que son maquillage n'avait peut-être pas supporté ses bouffées de chaleur et elle s'était dirigée vers la salle de bain pour le vérifier. A côté d'une autre fille occupée à se mettre du rouge à lèvres, elle s'était trouvée les yeux un peu rouges et s'était accordée quelques gouttes de collyre. Puis, revenant au salon, elle avait aperçu Pierre seul sur le canapé, un verre à la main. Elle s'était immédiatement assise auprès de lui et avait engagé la conversation. Il avait confié sa fille à ses parents et pouvait se laisser aller à un peu de loisir. Elle n'avait pu s'empêcher de penser qu'elle aussi était libre, trop libre peut-être, mais que ça tombait bien. Et soudain, un inconnu avait surgi de la cuisine et entrainé Pierre par le bras disant &amp;quot;Toi je t'ai pas encore vu!&amp;quot;. Pierre lui avait pris la main et entrainée à son tour dans la cuisine, où le fanfaron, plus qu'à moitié bourré, officiait au rituel de la &amp;quot;téquila-paf&amp;quot; depuis le début de la soirée. Docilement, ils avaient avalé leurs verres de téquila non sans avoir léché leur main saupoudrée de sel, avant de s'en retourner au salon, le devoir accompli.Ils s'étaient rassis ensemble sur le canapé, reprenant leur discussion là où elle s'était arrêtée. Décidément cet homme était charmant, ses paroles coulaient comme de l'eau sucrée et elle se sentait bien avec lui. Mais elle avait décidé brusquement qu'il ne fallait pas laisser paraitre ses sentiments, et se faisant violence, elle s'était levée pour aller se verser un &amp;quot;bloody-mary&amp;quot; dont tous les ingrédients étaient présents sur la table. Elle l'avait gobé d'un trait, lui tournant ostensiblement le dos. Et après?&lt;br />&lt;/p></Text>
                 <Sequels>
-                    <ID id="6" title="Suite"/>
+                    <ID title="Suite" id="6"/>
                 </Sequels>
             </Page>
-            <Page id="5" title="Page 5">
+            <Page title="Page 5" id="5">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Elle s'était confectionné un &amp;quot;bloody-mary&amp;quot; parfumé au sel de céleri. et avait rapidement constaté que Pierre , esseulé lui aussi, était assis sur le canapé un verre à la main. Elle s'était assise à son côté et avait engagé la conversation. Il avait confié sa fille à ses parents pour le week-end et pouvait s'accorder quelques moments de liberté. Elle avait pensé que pour elle aussi c'était un moment de liberté et que ça tobait bien. Puis un inconnu avait entrainé Pierre dans la cuisine et elle l'y avait suivi. L'inconnu officiait comme grand-prêtre de la &amp;quot;téquila-paf&amp;quot; et leur avait imposé, sans grande résistance de leur part, d'avaler une téquila non sans avoir léché un peu de sel saupoudré sur leur main.Un peu échaudés par cet épisode, ils s'en étaient retournés au salon et avaient repris leur discussion. Décidément, cet homme était charmant et elle buvait ses paroles, quand l'alcool avait commencé à faire son effet et qu'un grande vague de chaleur l'avait envahie. Elle avait alors quitté Pierre pour aller se passer de l'eau sur le visage à la salle de bain. Elle avait sorti de son baise-en-ville un tube de rouge à lèvres et se l'était appliqué soigneusement, décidée à séduire. Mais quand elle était revenue au salon, Pierre était en grande discussion avec un autre parent d'élève et elle n'avait pas osé s'immiscer. Déçue, elle s'était versé une vodka-pomme pour patienter. Mais Pierre n'en finissait pas et son verre était vide, alors elle s'était préparé de dépit un whisky-coca à parts égales et était allée prendre l'air sur le balcon.Savourant le vent du soir qui la rafraichissait un peu, elle s'était accoudée à la balustrade, un peu à l'écart des groupes de fumeurs tonitruants. Là, elle avait avisé un autre solitaire, qui détonnait avec le style général de la soirée de part ses cheveux longs et gras et sa barbe de trois jours. C'était, lui avait-il dit le frère de l'hôtesse et il était là un peu par hasard. Au bout d'un moment, il lui avait tendu sa cigarette roulée en lui confiant au passage que c'était &amp;quot;de la bombe, en provenance directe d'Amsterdam&amp;quot;. Curieuse, elle l'avait portée à ses lèvres et avait tiré deux trois bouffées entrecoupées de quinte de toux. Puis elle l'avait quitté en le remerciant d'un clin d'oeil complice et était retournée au salon voir si Pierre s'était enfin libéré, mais non, il était encore occupé à de vaines mondanités. Vêxée, elle s'était confectionné un whisky-coca et l'avait bu d'un trait, lui tournant ostensiblement le dos. Et après?,&lt;/p></Text>
                 <Sequels>
-                    <ID id="6" title="Suite"/>
+                    <ID title="Suite" id="6"/>
                 </Sequels>
             </Page>
-            <Page id="6" title="Page 6">
+            <Page title="Page 6" id="6">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Après plus rien. Le trou noir.Elle avait beau se triturer les méniges, aucun souvenir ne remontait à la surface. Comment elle était rentrée chez elle, mystère...Ce qu'elle faisait à moitié nue sur son lit fait, sa nuisette encore pliée sous l'oreiller, une énigme. Toujours dans le vague, elle décida de se préparer un café et mit la cafetière en route. Elle se sentait un arrière gout de vomi et elle se dirigea vers la salle de bain pour se brosser les dents. Là, elle découvrit ses habits de la veille étalés sur le rebord de la baignoire, trempés, et maculés.exhalant une odeur écoeurante. Elle les porta du bout des doigts dans la machine, en profita pour y vider le panier à linge sale et lança la lessive. Mais rien, encore aucun souvenir du drame qui avait dû se jouer.Elle revint à la cuisine, goba son café noir, et regarda l'heure. Il était encore un peu tôt pour appeler un dimanche matin, mais il lui semblait se souvenir que son hôtesse comptait justement aller au marché à la fraiche.Elle composa son numéro, et attendit, l'oreille rivée sur son portable, un long silence, une, deux sonneries et son interlocutrice décrocha.&lt;/p></Text>
                 <Sequels>
-                    <ID id="7" title="Allo?"/>
+                    <ID title="Allo?" id="7"/>
                 </Sequels>
             </Page>
         </Chapter>
         <Chapter title="Arbre binaire">
-            <Page id="7" title="Page 7">
+            <Page title="Page 7" id="7">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">-Allo, Julie, déjà debout? Ca va mieux? J'aurais pas parié avoir de tes nouvelles avant quatre heures de l'après-midi..&lt;/p>
@@ -311,21 +313,21 @@ p, li { white-space: pre-wrap; }
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">-On a dû te le dire pour que tu m'appelles à c't'heure là...&lt;/p>
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">-Mais tu m'as ramenée jusqu'à chez moi?&lt;/p></Text>
                 <Sequels>
-                    <ID id="8" title="Non, au coin de la rue, tu as failli me vomir dessus alors je t'ai laissée rentrer toute seule..."/>
-                    <ID id="9" title="Oui, tu étais malade j'allais pas te laisser tomber comme ça..."/>
+                    <ID title="Non, au coin de la rue, tu as failli me vomir dessus alors je t'ai laissée rentrer toute seule..." id="8"/>
+                    <ID title="Oui, tu étais malade j'allais pas te laisser tomber comme ça..." id="9"/>
                 </Sequels>
             </Page>
-            <Page id="8" title="Page 8">
+            <Page title="Page 8" id="8">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">-Non, au coin de la rue, tu as failli me vomir dessus alors je t'ai laissée rentrer toute seule...&lt;/p>
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">-Tu mens, je me serai mise sous douche tout habillée si on m'y avait pas forcée. Et ensuite, tu m'as déshabillée, tu t'es bien rincé l'oeil mon cochon. Et tu as abusé de moi?&lt;br />&lt;/p></Text>
                 <Sequels>
-                    <ID id="10" title="C'étais trop tenttant, tu m'étais offerte sur un plateau, j'en ai juste un peu profité..."/>
-                    <ID id="11" title="Ca va pas, non, tu étais malade je t'ai dit. J'aime pas la viande saoûle..."/>
+                    <ID title="C'étais trop tenttant, tu m'étais offerte sur un plateau, j'en ai juste un peu profité..." id="10"/>
+                    <ID title="Ca va pas, non, tu étais malade je t'ai dit. J'aime pas la viande saoûle..." id="11"/>
                 </Sequels>
             </Page>
-            <Page id="9" title="Page 9">
+            <Page title="Page 9" id="9">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">-Oui, tu étais malade j'allais pas te laisser tomber comme ça...Tu étais vulnérable, tu aurais pu tomber sur quelqu'un de mal intentionné, souviens-toi de ce qui nous est arrivé l'autre fois...&lt;/p>
@@ -334,25 +336,25 @@ p, li { white-space: pre-wrap; }
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">-et ... il s'est passé quelque chose entre nous?&lt;/p>
 &lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p></Text>
                 <Sequels>
-                    <ID id="12" title="-écoute,je t'ai dit que tu étais malade, j'aurais difficelement pu dire que c'étaiit consenti. "/>
-                    <ID id="13" title="-cétait tentant, tu étais offerte, impuissante, j'en ai juste un peu profité."/>
+                    <ID title="-écoute,je t'ai dit que tu étais malade, j'aurais difficelement pu dire que c'étaiit consenti. " id="12"/>
+                    <ID title="-cétait tentant, tu étais offerte, impuissante, j'en ai juste un peu profité." id="13"/>
                 </Sequels>
             </Page>
-            <Page id="10" title="Page 10">
+            <Page title="Page 10" id="10">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">-C'étais trop tenttant, tu m'étais offerte sur un plateau, j'en ai juste un peu profité...&lt;/p>
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">-Je ne te crois pas, dit-elle en tâtant l'étoffe de sa petite culotte d'une main mal assurée. Son sexe sentait encore l'insatifaction de ne pas avoir servi depuis trop longtemps. Tu m'as fait prendre une douche et au lit sans même un calin. Sadique! Et elle raccrocha. &lt;/p></Text>
                 <Sequels/>
             </Page>
-            <Page id="11" title="Page 11">
+            <Page title="Page 11" id="11">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">-Ca va pas, non, tu étais malade je t'ai dit. J'aime pas la viande saoûle...C'aurait été de la nécrophilie, j'aurais difficilement pu prétendre que c'était consenti..Et puis tu puais le vomi...&lt;/p>
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">-C'est pour ça que tu m'as mise sous la douche avant de me déshabiller, et que tu n'as rien fait. C'est bien ce que pensais, encore un pédé, c'est bien ma chance! Et elle raccrocha.&lt;/p></Text>
                 <Sequels/>
             </Page>
-            <Page id="12" title="Page 12">
+            <Page title="Page 12" id="12">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">-écoute,je t'ai dit que tu étais malade, j'aurais difficelement pu dire que c'étaiit consenti. Je t'ai mis sous la douche pour te netoyer et te réveiller, je t'ai déshabillée et portée sur le lit. J'ai attendu un peu, et comme tu ronflais tranquillement je suis parti sur la pointe des pieds.&lt;/p>
@@ -361,7 +363,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Décidément cet homme était chevaleresque. Parfait, presque trop pour elle. &lt;br />&lt;/p></Text>
                 <Sequels/>
             </Page>
-            <Page id="13" title="Page 13">
+            <Page title="Page 13" id="13">
                 <Text>
 
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">-cétait tentant, tu étais offerte, impuissante, j'en ai juste un peu profité.Tu ne t'es pas faite prier d'ailleurs...&lt;/p>
