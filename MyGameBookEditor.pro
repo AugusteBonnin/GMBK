@@ -21,13 +21,16 @@ DEFINES += QT_DEPRECATED_WARNINGS
 # In order to do so, uncomment the following line.
 # You can also select to disable deprecated APIs only up to a certain version of Qt.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
+INCLUDEPATH += /opt/local/include
 
+LIBS += -L. -lhunspell-1.7
 
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
     document.cpp \
     form.cpp \
+    narytreedialog.cpp \
     textedit.cpp \
     booleanalgebradialog.cpp \
     eventlist.cpp \
@@ -38,6 +41,7 @@ HEADERS += \
         mainwindow.h \
     document.h \
     form.h \
+    narytreedialog.h \
     textedit.h \
     booleanalgebradialog.h \
     eventlist.h \
@@ -50,6 +54,7 @@ FORMS += \
     booleanalgebradialog.ui \
     eventlist.ui \
     binarytreedialog.ui \
+    narytreedialog.ui \
     pseudorandomdialog.ui
 
 RESOURCES += \

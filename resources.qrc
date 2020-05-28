@@ -28,5 +28,6 @@
         <file>images/algebra.png</file>
         <file>images/tree.png</file>
         <file>images/alea.png</file>
+        <file>images/narytree.png</file>
     </qresource>
 </RCC>

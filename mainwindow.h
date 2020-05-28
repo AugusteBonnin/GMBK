@@ -7,6 +7,9 @@
 #include <QMainWindow>
 #include <QToolButton>
 
+#include <hunspell/hunspell.hxx>
+
+
 namespace Ui {
 class MainWindow;
 }
@@ -21,7 +24,8 @@ public:
     explicit MainWindow(const QString &fileName);
 
     void tile(const QMainWindow *previous);
-
+    Hunspell * getSpellChecker(){return m_Hunspell;}
+    QTextCodec * getTextCodec(){return m_Codec;}
 protected:
     void closeEvent(QCloseEvent *event) override;
 
@@ -43,8 +47,9 @@ void clearHistory();
 void exportHtml();
 void home();
 void createAlgebra();
-void createTree();
+void createBinaryTree();
 void createRandom();
+void createNaryTree();
 private:
     enum { MaxRecentFiles = 5 };
 
@@ -64,7 +69,9 @@ private:
     static QString strippedName(const QString &fullFileName);
     MainWindow *findMainWindow(const QString &fileName) const;
 
-
+    Hunspell *m_Hunspell;
+    QString m_Encoding;
+    QTextCodec * m_Codec;
 
     Form * form ;
 Document * document;
@@ -81,6 +88,7 @@ Document * document;
     QString curFile;
     bool isUntitled;private:
     Ui::MainWindow *ui;
+    void createNaryNode(QString parent, const QStringList &events, QStringList used);
 };
 
 #endif // MAINWINDOW_H
