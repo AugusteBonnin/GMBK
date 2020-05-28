@@ -1,5 +1,5 @@
 <!DOCTYPE GMBK>
-<GameBook start="index" current="19" title="Sans titre" free="22" author="auguste">
+<GameBook start="index" current="index" title="Sans titre" free="22" author="auguste">
     <History>
         <ID id="index"/>
         <ID id="14"/>
@@ -21,7 +21,8 @@ p, li { white-space: pre-wrap; }
             <Page title="Sans titre" id="index">
                 <Text>
 
-&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:18pt; font-weight:600; text-decoration: underline;">Exemple&lt;/span>&lt;/p></Text>
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:18pt; font-weight:600; text-decoration: underline;">Exemple&lt;/span>&lt;/p>
+&lt;p align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Julie était arrivée à Beaucaire à la fin de l'été. Elle n'avait pas eu trop de mal à se trouver un petit appartement propret, qu'elle avait meublé et fleuri dans les quelques jours avant la rentrée. Jusqu'ici son statut de jeune institutrice ne lui avait permis que d'aller de ZUP en ZEP, mais elle avait enfin accumulé assez de points pour se faire muter au soleil face à une classe &amp;quot;normale&amp;quot;. Oh de toute façon elle ne s'occuperait que des &amp;quot;grandes sections&amp;quot; de maternelle, à un âge où les différences socio-éducatives ne se faisaient pas encore trop sentir. Et après tout, elle en avait vu d'autres et elle était investie, d'une part, d'un profond amour des enfants, et d'autre part, d'un vrai respect pour l'école de la république qui lui avait permis de &amp;quot;s'en sortir&amp;quot;. Issue d'un milieu modeste, c'était la lecture qui lui avait donnée les bases de son éducation et l'avait portée naturellement jusqu'aux études supérieures, et c'était la lecture dont elle enseignerait maintenant les bases à une bande de braillards qu'elle aimait déjà d'avance. Évidemment elle était un peu seule ici, ayant abandonné ses copines dans la grisaille parisienne, mais elle ne tarderait pas à faire de nouvelles connaissances et elle avait un forfait mobile illimité. Du coup, pour le moment, entre les conseils avisés de sa mère et les copines curieuses de savoir comment elle s'était installée, elle n'avait pas trouvé trop le temps de s'ennuyer. Pour le reste les allers-retours au magasin d'ameublement-la faible contenance de sa petite voiture l'y forçait-et dans les enseignes ede jardinerie-elle avait végétalisé tout le balcon et une partie de l'appartement-l'avaient totalement occupée. Quant aux mecs, et bien, elle était partie célibataire de Paris et elle arrivait célibataire. Tout au plus laissait-elle derrière elle un flirt, Gérard, un commercial de deux ans son aine avec lequel elle avait couché quelques fois, &amp;quot;pour passer le temps&amp;quot;. Mais rien de bien construit,  rien de concret...&lt;/p></Text>
                 <Sequels>
                     <ID title="Lire la suite" id="1"/>
                 </Sequels>
