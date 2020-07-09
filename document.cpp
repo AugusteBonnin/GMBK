@@ -575,6 +575,10 @@ QString Document::exportPageToHtml(QDomElement page)
     html.append("\t\t</style>\n");
     html.append("\t</HEAD>\n\t<BODY>\n" );
     QString textHtml = page.firstChildElement(TEXT_ELEMENT_TAG).text();
+
+    textHtml = textHtml.replace("<underline>","",Qt::CaseInsensitive);
+    textHtml = textHtml.replace("</underline>","",Qt::CaseInsensitive);
+
     html.append(textHtml);
     html.append("\n\t\t<BR>\n");
     QDomNodeList sequelsList = sequels.childNodes();

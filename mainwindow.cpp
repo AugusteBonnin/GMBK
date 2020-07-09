@@ -154,14 +154,18 @@ void MainWindow::documentWasModified()
 void MainWindow::init()
 {
     try {
-        m_Hunspell = new Hunspell("fr-classique.aff",
-                                  "fr-classique.dic");
+#ifdef Q_OS_MACOS
+        m_Hunspell = new Hunspell("fr-classique.aff","fr-classique.dic");
         qDebug() << "Hunspell with AFF" << "fr-classique.aff" << "and DIC" << "fr-classique.dic";
+#else
+                m_Hunspell = new Hunspell("fr.aff","fr.dic");
+                qDebug() << "Hunspell with AFF" << "fr.aff" << "and DIC" << "fr.dic";
+#endif
         m_Encoding = QString::fromLatin1(m_Hunspell->get_dic_encoding());
         m_Codec = QTextCodec::codecForName(m_Encoding.toLatin1().constData());
     }
     catch(...) {
-        qDebug() << "Error in Hunspell with AFF" << "fr-classique.aff" << "and DIC" << "fr-classique.dic";
+        qDebug() << "Error loading Hunspell" ;
         m_Hunspell = NULL;
     }
     //setAttribute(Qt::WA_DeleteOnClose);

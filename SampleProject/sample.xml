@@ -1,5 +1,5 @@
 <!DOCTYPE GMBK>
-<GameBook start="index" current="index" title="Sans titre" free="22" author="auguste">
+<GameBook free="40" current="39" author="auguste" title="Sans titre" start="index">
     <History>
         <ID id="index"/>
         <ID id="14"/>
@@ -27,22 +27,40 @@
         <ID id="35"/>
         <ID id="36"/>
         <ID id="37"/>
+        <ID id="38"/>
+        <ID id="39"/>
     </History>
     <Abstract>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
 p, li { white-space: pre-wrap; }
-&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:13pt; font-weight:400; font-style:normal;">
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:11pt;">4ème de couverture&lt;/span>&lt;/p>&lt;/body>&lt;/html></Abstract>
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Helvetica'; font-size:11pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">4ème de couverture&lt;/p>&lt;/body>&lt;/html></Abstract>
     <Chapters>
         <Chapter title="Chapitre 1">
             <Page title="Sans titre" id="index">
                 <Text>
 
-&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:18pt; font-weight:600; text-decoration: underline;">Exemple&lt;/span>&lt;/p>
-&lt;p align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Julie était arrivée à Beaucaire à la fin de l'été. Elle n'avait pas eu trop de mal à se trouver un petit appartement propret, qu'elle avait meublé et fleuri dans les quelques jours avant la rentrée. Jusqu'ici son statut de jeune institutrice ne lui avait permis que d'aller de ZUP en ZEP, mais elle avait enfin accumulé assez de points pour se faire muter au soleil face à une classe &amp;quot;normale&amp;quot;. Oh de toute façon elle ne s'occuperait que des &amp;quot;grandes sections&amp;quot; de maternelle, à un âge où les différences socio-éducatives ne se faisaient pas encore trop sentir. Et après tout, elle en avait vu d'autres et elle était investie, d'une part, d'un profond amour des enfants, et d'autre part, d'un vrai respect pour l'école de la république qui lui avait permis de &amp;quot;s'en sortir&amp;quot;. Issue d'un milieu modeste, c'était la lecture qui lui avait donnée les bases de son éducation et l'avait portée naturellement jusqu'aux études supérieures, et c'était la lecture dont elle enseignerait maintenant les bases à une bande de braillards qu'elle aimait déjà d'avance. Évidemment elle était un peu seule ici, ayant abandonné ses copines dans la grisaille parisienne, mais elle ne tarderait pas à faire de nouvelles connaissances et elle avait un forfait mobile illimité. Du coup, pour le moment, entre les conseils avisés de sa mère et les copines curieuses de savoir comment elle s'était installée, elle n'avait pas trouvé trop le temps de s'ennuyer. Pour le reste les allers-retours au magasin d'ameublement-la faible contenance de sa petite voiture l'y forçait-et dans les enseignes ede jardinerie-elle avait végétalisé tout le balcon et une partie de l'appartement-l'avaient totalement occupée. Quant aux mecs, et bien, elle était partie célibataire de Paris et elle arrivait célibataire. Tout au plus laissait-elle derrière elle un flirt, Gérard, un commercial de deux ans son aine avec lequel elle avait couché quelques fois, &amp;quot;pour passer le temps&amp;quot;. Mais rien de bien construit,  rien de concret...&lt;/p></Text>
+&lt;p align="center" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:18pt; font-weight:600;">E&lt;/span>&lt;span style=" font-size:18pt; font-weight:600; text-decoration: underline;">x&lt;/span>&lt;span style=" font-size:18pt; font-weight:600;">e&lt;/span>&lt;span style=" font-size:18pt; font-weight:600; text-decoration: underline;">mp&lt;/span>&lt;span style=" font-size:18pt; font-weight:600;">le&lt;/span>&lt;/p>
+&lt;p align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Julie était arrivée à Beaucaire à la fin de l'été. Elle n'avait pas eu trop de mal à se trouver un petit appartement propret, qu'elle avait meublé et fleuri dans les quelques jours avant la rentrée. Jusqu'ici son statut de jeune institutrice ne lui avait permis que d'aller de ZUP en ZEP, mais elle avait enfin accumulé assez de points pour se faire muter au soleil face à une classe &amp;quot;normale&amp;quot;. Oh de toute façon elle ne s'occuperait que des &amp;quot;grandes sections&amp;quot; de maternelle, à un âge où les différences &lt;span style=" text-decoration: underline;">socio&lt;/span>-éducatives ne se faisaient pas encore trop sentir. Et après tout, elle en avait vu d'autres et elle était investie, d'une part, d'un profond amour des enfants, et d'autre part, d'un vrai respect pour l'école de la république qui lui avait permis de &amp;quot;s'en sortir&amp;quot;. Issue d'un milieu modeste, c'était la lecture qui lui avait donnée les bases de son éducation et l'avait portée naturellement jusqu'aux études supérieures, et c'était la lecture dont elle enseignerait maintenant les bases à une bande de braillards qu'elle aimait déjà d'avance. Évidemment elle était un peu seule ici, ayant abandonné ses copines dans la grisaille parisienne, mais elle ne tarderait pas à faire de nouvelles connaissances et elle avait un forfait mobile illimité. Du coup, pour le moment, entre les conseils avisés de sa mère et les copines curieuses de savoir comment elle s'était installée, elle n'avait pas trouvé trop le temps de s'ennuyer. Pour le reste les allers-retours au magasin d'ameublement-la faible contenance de sa petite voiture l'y forçait-et dans les enseignes de jardinerie-elle avait végétalisé tout le balcon et une partie de l'appartement-l'avaient totalement occupée. Quant aux mecs, et bien, elle était partie célibataire de Paris et elle arrivait célibataire. Tout au plus connaissait-elle à Beaucaire un commercial de deux ans son aine qu&lt;span style=" text-decoration: underline;">'&lt;/span>elle&lt;span style=" text-decoration: underline;"> &lt;/span>avait&lt;span style=" text-decoration: underline;"> rencontré &lt;/span>dans&lt;span style=" text-decoration: underline;"> &lt;/span>une&lt;span style=" text-decoration: underline;"> &lt;/span>soirée&lt;span style=" text-decoration: underline;"> &lt;/span>étudiante&lt;span style=" text-decoration: underline;"> &lt;/span>et&lt;span style=" text-decoration: underline;"> &lt;/span>avec lequel elle avait couché quelques fois, &amp;quot;pour passer le temps&amp;quot;. Mais rien de bien construit, rien de concret...&lt;/p></Text>
                 <Sequels>
                     <ID title="Début" id="14"/>
                 </Sequels>
+            </Page>
+            <Page title="Page 39" id="39">
+                <Text>
+
+&lt;p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%;">Julie s’occupait de surveiller la cour de récréation, quand une paire de fillettes de grande section vinrent lui porter doléance:&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%;">-Elle m’a tiré les cheveux, déclara Sophie, une enfant aux longues tresses, les larmes aux yeux.&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%;">L’autre enfant, Camille, ne niait pas:&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%;">-Elle a été méchante avec moi, répondit-elle pour se justifier.&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%;">-C’est pas une raison pour lui tirer les cheveux, rétorqua la maîtresse.&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%;">-Punition de Camille&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%;">-Explication de Camille&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%;">-Rencontre de Pierre&lt;/p></Text>
+                <Sequels/>
             </Page>
         </Chapter>
         <Chapter title="Chapitre 2">
@@ -119,129 +137,139 @@ p, li { white-space: pre-wrap; }
                 </Sequels>
             </Page>
         </Chapter>
-        <Chapter title="Chapitre 4 : Arbre n-aire">
-            <Page title="Intro du chapitre 4" id="22">
+        <Chapter title="Chapitre 3 Arbre n-aire">
+            <Page title="Page 22" id="22">
                 <Text>
 
-&lt;pre align="justify" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Un samedi suivant, Pierre et Camille avaient passé une partie du tiède après-midi d'automne à se promener. Camille, le regard attiré par le tapis bleuté au milieu de la garrigue, avait cueilli un petit bouquet de cyclamens qu'elle tenait fermement dans sa main droite, l'autre dans celle de son père. Ils rentraient chez eux au soleil orangé des dernières heures de lumière, quand Camille reconnut l'immeuble de sa maîtresse. Elle apostropha Pierre : « On va voir si la maîtresse est là ? J'voudrais lui offrir mon bouquet... » « Si tu veux », lui répondit son père en souriant, enchanté de l'attention de sa fille. Ils escaladèrent donc les quelques marches et Pierre appuya brièvement sue le bouton de la sonnette. Quelques instants s'écoulèrent et la porte s'ouvrit sur Julie, le rose au joue, souriante elle aussi. « Bonjour &lt;span style=" text-decoration: underline;">Maitresse&lt;/span> ! » s'exclama Camille, « Bonjour Camille » lui rétorqua Julie en se penchant pour lui faire la bise. « Bonjour Pierre. » dit-elle sur un ton plus grave en se relevant. « Tiens c'est pour toi, c'est moi qui les ai cueillies » fit-elle en tendant son bouquet à Julie qui s'extasia :«  Que c'est gentil, merci beaucoup Camille. Je vais les mettre dans un verre avec un peu d'eau .» Effectivement le bouquet était à l'aune de la paume de l'enfant et un petit contenant suffirait sans doute. « Je vous fais pas rentrer, j'ai du monde » reprit-elle l'air un peu gêné. Une voix mâle résonna du salon : « C'est qui ? » « C'est rien, on a fini &lt;span style=" text-decoration: underline;">»dit&lt;/span>-elle à voix haute avant de murmurer à l'oreille de Camille un « merci encore » et de lui embrasser la joue. « Salut » asséna-t-elle à Pierre, qui la saluant à son tour d 'un air triste, se retourna en ramenant sa fillette vers l'extérieur. Julie claqua la porte et s'appuya quelques instants du front sur le chambranle. « Voilà le genre de &lt;span style=" text-decoration: underline;">coincidence&lt;/span> que j'aurais préféré éviter » pensa-t-elle et, reprenant le chemin du salon, elle soupira. « Une élève qui m'apporte des fleurs, si c'est pas mignon » fit-elle à l'homme qui, la voyant revenir ses fleurs à la main, l'interrogeait du regard. Elle saisit un verre dans le buffet, le posa sur la table basse et le remplit d'eau au pichet qui y &lt;span style=" text-decoration: underline;">trainait&lt;/span> déjà. Elle y déposa les fleurs du modeste bouquet, et  retrouvant son sourire elle tendit la main vers un autre verre. Gérard ne venait jamais les mains vide : Il était commercial itinérant pour &lt;span style=" text-decoration: underline;">Percod&lt;/span>-&lt;span style=" text-decoration: underline;">Rinard&lt;/span>, qui avait à la fois son siège social et une usine dans le patelin, et son coffre était toujours plein de bouteilles d'alcool qu'il écoulait pendant la semaine. Alors quand ils se retrouvaient, de temps en temps, comme Gérard venait se ré-achalander au siège, ils picolaient sérieusement, du pastis surtout – c'était l'alcool local. Elle s'en versa un trait, piocha deux trois glaçons dans le bol et compléta à l'eau du pichet. Puis elle mélangea son verre avec une petite cuillère et enfin le porta à ses lèvres. Elle n'en était pas à son premier et son sens du goût était déjà complètement annihilé. Les &lt;span style=" text-decoration: underline;">cacahouètes&lt;/span> avaient goût d'anis, les chips avaient goût d'anis, le saucisson avait goût d'anis, d'anis enfin auraient goût les baisers qu'ils échangeraient tout à l'heure. Car Gérard était avant tout un plan cul, ils picolaient ensemble, et ensuite, quand ils étaient bien chauds, ils baisaient. Sauvagement, presque violemment, sans tendresse, sans sentiments, elle savait à quoi s'attendre et cette régularité la rassurait. &lt;span style=" text-decoration: underline;">Evidemment&lt;/span>, elle aurait apprécié un peu plus de douceur, mais elle avait souffert dans le passé de la séparation d'avec des garçons justement doux et attachants, et -pour le moment- cette absence d'implication de part et d'autre lui convenait. Demain, son coup tiré, Gérard &lt;span style=" text-decoration: underline;">disparaitrait&lt;/span> pour un temps, assez pour qu'elle oublie sa vulgarité et son manque de tact, et qu'elle se prête de nouveau à cet exutoire mutuel.&lt;/pre>
-&lt;pre align="justify" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Le soleil s'était couché sur quelques verres supplémentaires, et les langues commençaient à coller au palais, rendant la discussion plus difficile. Gérard décida donc d'un coup qu'il était temps d'entamer les hostilités. Il attira Julie prés de lui, sans décoller du canapé, et se mit en devoir de la déshabiller tout en l'embrassant goulûment. Elle, prise de court, posa son verre entamé sur la table basse et retira son tee-shirt. Lui tirait d'une main le &lt;span style=" text-decoration: underline;">legging&lt;/span> et sa petit culotte en dentelle tandis que de l'autre il dégrafait son soutien gorge, qui dégagea une poitrine ferme aux tétons déjà tendus. Il quitta sa bouche pour asseoir la sienne sur la pointe d'un sein qu'il cercla de sa langue pendant qu'elle s'ingéniait à défaire un à un les boutons de sa chemise, les pieds encore pris dans sa culotte et son legging qu'il lui avait abandonné aux chevilles. Elle se dégagea un instant pour se désincarcérer, alors qu'il défaisait sa ceinture, et retirait pantalon et slip, qui révélèrent une franche érection. Il glissa de force sa main entre les cuisses encore serrées, et insinuant en elle un doigt rageur, il l'embrassa de nouveau avidement tandis qu'elle le masturbait doucement. Quelques instants s'écoulèrent à ce rythme, quand Gérard se sépara d'elle pour la contempler. « Mettons un peu d'ordre dans tout ça » dit-il.&lt;/pre>
-&lt;p align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"> &lt;/p></Text>
+&lt;p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Un samedi suivant, Pierre et Camille avaient passé une partie du tiède après-midi d'automne à se promener. Camille, le regard attiré par le tapis bleuté au milieu de la garrigue, avait cueilli un petit bouquet de cyclamens qu'elle tenait fermement dans sa main droite, l'autre dans celle de son père. Ils rentraient chez eux au soleil orangé des dernières heures de lumière, quand Camille reconnut l'immeuble de sa maîtresse. Elle apostropha Pierre : « On va voir si la maîtresse est là ? J'voudrais lui offrir mon bouquet... » « Si tu veux », lui répondit son père en souriant, enchanté de l'attention de sa fille. Ils escaladèrent donc les quelques marches et Pierre appuya brièvement sue le bouton de la sonnette. Quelques instants s'écoulèrent et la porte s'ouvrit sur Julie, le rose au joue, souriante elle aussi. « Bonjour Maîtresse ! » s'exclama Camille, « Bonjour Camille » lui rétorqua Julie en se penchant pour lui faire la bise. « Bonjour Pierre. » dit-elle sur un ton plus grave en se relevant. « Tiens c'est pour toi, c'est moi qui les ai cueillies » fit-elle en tendant son bouquet à Julie qui s'extasia :« Que c'est gentil, merci beaucoup Camille. Je vais les mettre dans un verre avec un peu d'eau .» Effectivement le bouquet était à l'aune de la paume de l'enfant et un petit contenant suffirait sans doute. « Je vous fais pas rentrer, j'ai du monde » reprit-elle l'air un peu gêné. Une voix mâle résonna du salon : « C'est qui ? » « C'est rien, on a fini &lt;span style=" text-decoration: underline;">» dit&lt;/span>-elle à voix haute avant de murmurer à l'oreille de Camille un « merci encore » et de lui embrasser la joue. « Salut » asséna-t-elle à Pierre, qui la saluant à son tour d 'un air triste, se retourna en ramenant sa fillette vers l'extérieur. Julie claqua la porte et s'appuya quelques instants du front sur le chambranle. « Voilà le genre de coïncidence que j'aurais préféré éviter » pensa-t-elle et, reprenant le chemin du salon, elle soupira. « Une élève qui m'apporte des fleurs, si c'est pas mignon » fit-elle à l'homme qui, la voyant revenir ses fleurs à la main, l'interrogeait du regard. Elle saisit un verre dans le buffet, le posa sur la table basse et le remplit d'eau au pichet qui y traînait déjà. Elle y déposa les fleurs du modeste bouquet, et retrouvant son sourire elle tendit la main vers un autre verre. Gérard ne venait jamais les mains vide : Il était commercial itinérant pour &lt;span style=" text-decoration: underline;">Percod&lt;/span>-&lt;span style=" text-decoration: underline;">Rinard&lt;/span>, qui avait à la fois son siège social et une usine dans le patelin, et son coffre était toujours plein de bouteilles d'alcool qu'il écoulait pendant la semaine. Alors quand ils se retrouvaient, de temps en temps, comme Gérard venait se ré-achalander au siège, ils picolaient sérieusement, du pastis surtout – c'était l'alcool local. Elle s'en versa un trait, piocha deux trois glaçons dans le bol et compléta à l'eau du pichet. Puis elle mélangea son verre avec une petite cuillère et enfin le porta à ses lèvres. Elle n'en était pas à son premier et son sens du goût était déjà complètement annihilé. Les cacahuètes avaient goût d'anis, les chips avaient goût d'anis, le saucisson avait goût d'anis, d'anis enfin auraient goût les baisers qu'ils échangeraient tout à l'heure. Car Gérard était avant tout un plan cul, ils picolaient ensemble, et ensuite, quand ils étaient bien chauds, ils baisaient. Sauvagement, presque violemment, sans tendresse, sans sentiments, elle savait à quoi s'attendre et cette régularité la rassurait. Évidemment, elle aurait apprécié un peu plus de douceur, mais elle avait souffert dans le passé de la séparation d'avec des garçons justement doux et attachants, et -pour le moment- cette absence d'implication de part et d'autre lui convenait. Demain, son coup tiré, Gérard disparaîtrait pour un temps, assez pour qu'elle oublie sa vulgarité et son manque de tact, et qu'elle se prête de nouveau à cet exutoire mutuel.&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Le soleil s'était couché sur quelques verres supplémentaires, et les langues commençaient à coller au palais, rendant la discussion plus difficile. Gérard décida donc d'un coup qu'il était temps d'entamer les hostilités. Il attira Julie prés de lui, sans décoller du canapé, et se mit en devoir de la déshabiller tout en l'embrassant goulûment. Elle, prise de court, posa son verre entamé sur la table basse et retira son tee-shirt. Lui tirait d'une main le &lt;span style=" text-decoration: underline;">legging&lt;/span> et sa petit culotte en dentelle tandis que de l'autre il dégrafait son soutien gorge, qui dégagea une poitrine ferme aux tétons déjà tendus. Il quitta sa bouche pour asseoir la sienne sur la pointe d'un sein qu'il cercla de sa langue pendant qu'elle s'ingéniait à défaire un à un les boutons de sa chemise, les pieds encore pris dans sa culotte et son &lt;span style=" text-decoration: underline;">legging&lt;/span> qu'il lui avait abandonné aux chevilles. Elle se dégagea un instant pour se désincarcérer, alors qu'il défaisait sa ceinture, et retirait pantalon et slip, qui révélèrent une franche érection. Il glissa de force sa main entre les cuisses encore serrées, et insinuant en elle un doigt rageur, il l'embrassa de nouveau avidement tandis qu'elle le masturbait doucement. Quelques instants s'écoulèrent à ce rythme, quand Gérard se sépara d'elle pour la contempler. « Mettons un peu d'ordre dans tout ça » dit-il.&lt;/p></Text>
                 <Sequels>
-                    <ID title="Pas de texte" id="23"/>
-                    <ID title="Pas de texte" id="24"/>
-                    <ID title="Pas de texte" id="25"/>
+                    <ID title="Elle le suce" id="23"/>
+                    <ID title="Il la sodomise" id="28"/>
+                    <ID title="Il la pénètre par devant" id="33"/>
                 </Sequels>
             </Page>
-            <Page title="A" id="23">
+            <Page title="Page 23" id="23">
                 <Text>
 
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">A&lt;/p>
-&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p></Text>
+&lt;p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Elle s'inclina et saisit son sexe dans sa bouche tandis que Gérard, satisfait de son initiative, se calait dans un angle du canapé. Elle le pompa avec application, le masturbant d'une main et massant ses gonades de l'autre, ce que Gérard semblait particulièrement apprécier, à en juger par les râles de plaisir qu'il hoquetait. Au bout de quelques minutes, elle jugea qu'elle avait bien forgé le pal qu'elle désirait et, le quittant un instant elle lui enfila un préservatif.&lt;/p></Text>
                 <Sequels>
-                    <ID title="Pas de texte" id="26"/>
-                    <ID title="Pas de texte" id="27"/>
+                    <ID title="Il la sodomise" id="24"/>
+                    <ID title="Il la pénètre par devant" id="26"/>
                 </Sequels>
             </Page>
-            <Page title="B" id="24">
+            <Page title="Page 24" id="24">
                 <Text>
 
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">B&lt;/p></Text>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">« Retourne-toi, maintenant. ». Julie savait que ça signifiait mais obtempéra de bonne grâce. Gérard, qui avait dans le même temps enfilé un préservatif, saisit son sexe de la main droite et écartant légèrement les fesses de Julie appliqua son gland contre l’anus de cette dernière. Il le pressa alors un grand coup et en un instant son membre s’introduisit dans le rectum de Julie, qui étouffa un cri. Résignée, elle enfouit sa tête dans les plis du canapés. Appuyée sur ses coudes repliés sous elle, elle tendait à Gérard sa croupe rehaussée qu’il s’ingéniait à limer en &lt;span style=" text-decoration: underline;">cadence&lt;/span>. Elle, bouche entrouverte, savourait cette possession puissante en se disant que son tour viendrait. D’ailleurs Gérard ne tarda pas se lasser.&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p></Text>
                 <Sequels>
-                    <ID title="Pas de texte" id="28"/>
-                    <ID title="Pas de texte" id="29"/>
+                    <ID title="Il la pénètre par devant" id="25"/>
                 </Sequels>
             </Page>
-            <Page title="C" id="25">
+            <Page title="Page 25" id="25">
                 <Text>
 
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">C&lt;/p></Text>
-                <Sequels>
-                    <ID title="Pas de texte" id="30"/>
-                    <ID title="Pas de texte" id="31"/>
-                </Sequels>
-            </Page>
-            <Page title="AC" id="27">
-                <Text>
-
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">AC&lt;/p></Text>
-                <Sequels>
-                    <ID title="Pas de texte" id="33"/>
-                </Sequels>
-            </Page>
-            <Page title="AB" id="26">
-                <Text>
-
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">AB&lt;/p></Text>
-                <Sequels>
-                    <ID title="Pas de texte" id="32"/>
-                </Sequels>
-            </Page>
-            <Page title="BA" id="28">
-                <Text>
-
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">BA&lt;/p></Text>
-                <Sequels>
-                    <ID title="Pas de texte" id="34"/>
-                </Sequels>
-            </Page>
-            <Page title="BC" id="29">
-                <Text>
-
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">BC&lt;/p></Text>
-                <Sequels>
-                    <ID title="Pas de texte" id="35"/>
-                </Sequels>
-            </Page>
-            <Page title="CA" id="30">
-                <Text>
-
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">CA&lt;/p></Text>
-                <Sequels>
-                    <ID title="Pas de texte" id="36"/>
-                </Sequels>
-            </Page>
-            <Page title="CB" id="31">
-                <Text>
-
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">CB&lt;/p></Text>
-                <Sequels>
-                    <ID title="Pas de texte" id="37"/>
-                </Sequels>
-            </Page>
-            <Page title="ABC" id="32">
-                <Text>
-
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ABC&lt;/p></Text>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Elle eut à peine le temps de s’apercevoir que Gérard était sorti d’elle qu’il la pénétra, sans la retourner, dans son orifice génital cette fois. Elle poussa un soupir de plaisir alors que son vagin s’élargissait pour laisser place au vit gonflé de son partenaire. Cette fois c’était vraiment trop bon et elle ne tarda pas à jouir sous les allers-retours imperturbables tout en mordant le cuir du canapé.&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p></Text>
                 <Sequels/>
             </Page>
-            <Page title="ACB" id="33">
+            <Page title="Page 26" id="26">
                 <Text>
 
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">ACB&lt;/p></Text>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&amp;quot;Prends-moi&amp;quot; lui susurra&lt;span style=" text-decoration: underline;">-&lt;/span>t-elle et il s'exécuta. Ayant enfilé un préservatif, il l'allongea sur le canapé. Guidant son sexe tendu vers son orifice génital, il la pénétra brutalement. Elle eut un sursaut, mais bientôt elle cala ses chevilles derrière le bassin de Gérard, se laissant aller au plaisir des va-et&lt;span style=" text-decoration: underline;">-&lt;/span>viens&lt;span style=" text-decoration: underline;"> &lt;/span>puissants de son compagnon. Lui, tantôt l'embrassait à pleine bouche, tantôt se concentrait sur son sein gauche qu'il maniait et léchait avec vigueur. Submergée par le plaisir, elle ne tarda pas à avoir un orgasme en serrant Gérard contre elle. De son côté, il n'avait pas joui, se réservant pour d'autres jeux.&lt;/p></Text>
+                <Sequels>
+                    <ID title="Il la sodomise" id="27"/>
+                </Sequels>
+            </Page>
+            <Page title="Page 27" id="27">
+                <Text>
+
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">« Retourne-toi, maintenant. ». Julie savait que ça signifiait mais obtempéra de bonne grâce. Gérard, saisit son sexe de la main droite et écartant légèrement les fesses de Julie appliqua son gland contre l’anus de cette dernière. Il le pressa alors un grand coup et en un instant son membre s’introduisit dans le rectum de Julie, qui étouffa un cri. Résignée, elle enfouit sa tête dans les plis du canapés. Appuyée sur ses coudes repliés sous elle, elle tendait à Gérard sa croupe rehaussée qu’il s’ingéniait à limer en cadence. Elle, bouche entrouverte, savourait cette possession puissante. Gérard ne tarda pas à jouir dans son cul, en s'enfonçant jusqu'à la garde. Il sortit d'elle et s'affaissa sur le canapé.&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p></Text>
                 <Sequels/>
             </Page>
-            <Page title="BAC" id="34">
+            <Page title="Page 28" id="28">
                 <Text>
 
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">BAC&lt;/p></Text>
+&lt;p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">« Retourne-toi, maintenant. ». Julie savait que ça signifiait mais obtempéra de bonne grâce. Gérard, qui avait dans le même temps enfilé un préservatif, saisit son sexe de la main droite et écartant légèrement les fesses de Julie appliqua son gland contre l’anus de cette dernière. Il le pressa alors un grand coup et en un instant son membre s’introduisit dans le rectum de Julie, qui étouffa un cri. Résignée, elle enfouit sa tête dans les plis du canapés. Appuyée sur ses coudes repliés sous elle, elle tendait à Gérard sa croupe rehaussée qu’il s’ingéniait à limer en cadence/. Elle, bouche entrouverte, savourait cette possession puissante en se disant que son tour viendrait. D’ailleurs Gérard ne tarda pas se lasser.&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p></Text>
+                <Sequels>
+                    <ID title="Elle le suce" id="29"/>
+                    <ID title="Il la pénètre par devant" id="31"/>
+                </Sequels>
+            </Page>
+            <Page title="Page 29" id="29">
+                <Text>
+
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Elle lui retira son préservatif, s'inclina et saisit son sexe dans sa bouche tandis que Gérard, satisfait de son initiative, se calait dans un angle du canapé. Elle le pompa avec application, le masturbant d'une main et massant ses gonades de l'autre, ce que Gérard semblait particulièrement apprécier, à en juger par les râles de plaisir qu'il hoquetait. Au bout de quelques minutes, elle jugea qu'elle avait bien forgé le pal qu'elle désirait.&lt;/p></Text>
+                <Sequels>
+                    <ID title="Il la pénètre par devant" id="30"/>
+                </Sequels>
+            </Page>
+            <Page title="Page 30" id="30">
+                <Text>
+
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&amp;quot;Prends-moi&amp;quot; lui susurra&lt;span style=" text-decoration: underline;">-&lt;/span>t-elle et il s'exécuta. Ayant enfilé un préservatif, il l'allongea sur le canapé. Guidant son sexe tendu vers son orifice génital, il la pénétra brutalement. Elle eut un sursaut, mais bientôt elle cala ses chevilles derrière le bassin de Gérard, se laissant aller au plaisir des va-et&lt;span style=" text-decoration: underline;">-&lt;/span>viens&lt;span style=" text-decoration: underline;"> &lt;/span>puissants de son compagnon. Lui, tantôt l'embrassait à pleine bouche, tantôt se concentrait sur son sein gauche qu'il maniait et léchait avec vigueur. Submergée par le plaisir, elle ne tarda pas à avoir un orgasme en serrant Gérard contre elle, et il jouit lui aussi en ahanant&lt;span style=" text-decoration: underline;"> &lt;/span>de délice.&lt;/p></Text>
                 <Sequels/>
             </Page>
-            <Page title="BCA" id="35">
+            <Page title="Page 31" id="31">
                 <Text>
 
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">BCA&lt;/p></Text>
+&lt;p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Elle eut à peine le temps de s’apercevoir que Gérard était sorti d’elle qu’il la pénétra, sans la retourner, dans son orifice génital cette fois. Elle poussa un soupir de plaisir alors que son vagin s’élargissait pour laisser place au vit gonflé de son partenaire. Cette fois c’était vraiment trop bon et elle ne tarda pas à jouir sous les allers-retours imperturbables tout en mordant le cuir du canapé.&lt;/p>
+&lt;p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p></Text>
+                <Sequels>
+                    <ID title="Elle le suce" id="32"/>
+                </Sequels>
+            </Page>
+            <Page title="Page 32" id="32">
+                <Text>
+
+&lt;p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Gérard, qui, ayant remarqué le plaisir de sa compagne, n’avait toujours pas joui, la laissa souffler quelques secondes et lui lança un « suce moi » impérieux. Elle lui refit face et s’inclinant de nouveau elle lui retira son préservatif et appliqua ses lèvres sur son sexe tendu. Elle fit tourner sa langue sur le gland turgescent et Gérard l’accompagna d’un « oui c’est bon ». Puis elle se mit à le pomper méthodiquement, le trayant d’une main tandis que de l’autre elle massait ses couilles velues. Rapidement il fit un « ça vient » et elle reçut en bouche le fruit de son labeur. Elle avala à petites lampées tout en continuant à aspirer pendant que Gérard s’affaissait en râlant de plaisir.&lt;/p></Text>
                 <Sequels/>
             </Page>
-            <Page title="CAB" id="36">
+            <Page title="Page 33" id="33">
                 <Text>
 
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">CAB&lt;/p></Text>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&amp;quot;Prends-moi&amp;quot; lui susurra&lt;span style=" text-decoration: underline;">-&lt;/span>t-elle et il s'exécuta. Ayant enfilé un préservatif, il l'allongea sur le canapé. Guidant son sexe tendu vers son orifice génital, il la pénétra brutalement. Elle eut un sursaut, mais bientôt elle cala ses chevilles derrière le bassin de Gérard, se laissant aller au plaisir des va-et&lt;span style=" text-decoration: underline;">-&lt;/span>viens&lt;span style=" text-decoration: underline;"> &lt;/span>puissants de son compagnon. Lui, tantôt l'embrassait à pleine bouche, tantôt se concentrait sur son sein gauche qu'il maniait et léchait avec vigueur. Submergée par le plaisir, elle ne tarda pas à avoir un orgasme en serrant Gérard contre elle. De son côté, il n'avait pas joui, se réservant pour d'autres jeux.&lt;/p></Text>
+                <Sequels>
+                    <ID title="Elle le suce" id="34"/>
+                    <ID title="Il la sodomise" id="36"/>
+                </Sequels>
+            </Page>
+            <Page title="Page 34" id="34">
+                <Text>
+
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Elle s'inclina, lui retira son préservatif&lt;span style=" text-decoration: underline;"> &lt;/span>et saisit son sexe dans sa bouche tandis que Gérard, satisfait de son initiative, se calait dans un angle du canapé. Elle le pompa avec application, le masturbant d'une main et massant ses gonades de l'autre, ce que Gérard semblait particulièrement apprécier, à en juger par les râles de plaisir qu'il hoquetait. Au bout de quelques minutes, elle jugea qu'elle avait bien forgé le pal qu'elle désirait et, le quittant un instant elle lui enfila un préservatif.&lt;/p></Text>
+                <Sequels>
+                    <ID title="Il la sodomise" id="35"/>
+                </Sequels>
+            </Page>
+            <Page title="Page 35" id="35">
+                <Text>
+
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">« Retourne-toi, maintenant. ». Julie savait que ça signifiait mais obtempéra de bonne grâce. Gérard&lt;span style=" text-decoration: underline;"> &lt;/span>saisit son sexe de la main droite et écartant légèrement les fesses de Julie appliqua son gland contre l’anus de cette dernière. Il le pressa alors un grand coup et en un instant son membre s’introduisit dans le rectum de Julie, qui étouffa un cri. Résignée, elle enfouit sa tête dans les plis du canapés. Appuyée sur ses coudes repliés sous elle, elle tendait à Gérard sa croupe rehaussée qu’il s’ingéniait à limer en cadence. Elle, bouche entrouverte, savourait cette possession puissante . Gérard ne tarda pas à jouir&lt;span style=" text-decoration: underline;"> &lt;/span>dans&lt;span style=" text-decoration: underline;"> &lt;/span>son&lt;span style=" text-decoration: underline;"> &lt;/span>cul&lt;span style=" text-decoration: underline;">, &lt;/span>en proférant&lt;span style=" text-decoration: underline;"> &lt;/span>des&lt;span style=" text-decoration: underline;"> &lt;/span>paroles&lt;span style=" text-decoration: underline;"> &lt;/span>inintelligibles&lt;span style=" text-decoration: underline;"> &lt;/span>et sortit&lt;span style=" text-decoration: underline;"> &lt;/span>d'elle&lt;span style=" text-decoration: underline;">.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p></Text>
                 <Sequels/>
             </Page>
-            <Page title="CBA" id="37">
+            <Page title="Page 36" id="36">
                 <Text>
 
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">CBA&lt;/p></Text>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">« Retourne-toi, maintenant. ». Julie savait que ça signifiait mais obtempéra de bonne grâce. Gérard saisit son sexe de la main droite et écartant légèrement les fesses de Julie appliqua son gland contre l’anus de cette dernière. Il le pressa alors un grand coup et en un instant son membre s’introduisit dans le rectum de Julie, qui étouffa un cri. Résignée, elle enfouit sa tête dans les plis du canapés. Appuyée sur ses coudes repliés sous elle, elle tendait à Gérard sa croupe rehaussée qu’il s’ingéniait à limer en &lt;span style=" text-decoration: underline;">cadence&lt;/span>. Elle, bouche entrouverte, savourait cette possession puissante. Gérard ne tarda pas se lasser et il sortit d'elle,, retirant sa capote souillée.&amp;quot;Suce-moi&amp;quot; lui lança-t-il alors, et elle se retourna.&lt;br />&lt;/p></Text>
+                <Sequels>
+                    <ID title="Elle le suce" id="37"/>
+                </Sequels>
+            </Page>
+            <Page title="Page 37" id="37">
+                <Text>
+
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Elle s'inclina vers lui, à genoux, le sexe dressé comme le mat d'un navire et le saisit en bouche. Elle le pompait avec application, le masturbant d'une main et lui massant les gonades de l'autre. Gérard, qui&lt;span style=" text-decoration: underline;"> &lt;/span>s&lt;span style=" text-decoration: underline;">'&lt;/span>était calé dans un coin du canapé, déraisonnait de plaisir. Dans un souffle, il lui glissa un &amp;quot;ça vient&amp;quot; et elle sentit le membre se tendre sous sa succion. Il jouit dans sa bouche et elle aspira les jets de sperme, les avalant par petites lampées. Elle passa un dernier coup de langue sur son vit frémissant et il s'affaissa sur le canapé.&lt;/p></Text>
+                <Sequels/>
+            </Page>
+            <Page title="Page 38" id="38">
+                <Text>
+
+&lt;p style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:100%;">Comme d’habitude, Gérard l’avait laissée son coup tiré, lui abandonnant la fin d’une bouteille de pastis. Elle se resservit un verre et se cala dans un coin du canapé. Elle était encore à moitié nue et sirotait son breuvage anisé en méditant. Était-ce vraiment cela qu’elle désirait ? Certes Gérard était un bon coup, mas elle aurait tellement aimé un peu plus de tendresse...Peut-être qu’un gars comme Pierre serait plus à même de la lui donner ?&lt;/p></Text>
                 <Sequels/>
             </Page>
         </Chapter>

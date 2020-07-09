@@ -31,7 +31,7 @@ TextEdit::TextEdit(MainWindow *parent)
     layout->addWidget(actionTextBold,0,0);
 
     const QIcon italicIcon(":/images/italic.png");
-     actionTextItalic = new QPushButton(this);
+    actionTextItalic = new QPushButton(this);
     actionTextItalic->setIcon(italicIcon);
     actionTextItalic->setIconSize(iconSize);
     actionTextItalic->setToolTip(tr("Italique"));
@@ -40,7 +40,7 @@ TextEdit::TextEdit(MainWindow *parent)
     layout->addWidget(actionTextItalic,0,1);
 
     const QIcon underlineIcon(":/images/underline.png");
-     actionTextUnderline = new QPushButton(this);
+    actionTextUnderline = new QPushButton(this);
     actionTextUnderline->setIcon(underlineIcon);
     actionTextUnderline->setIconSize(iconSize);
     actionTextUnderline->setToolTip( tr("Souligné"));
@@ -51,7 +51,7 @@ TextEdit::TextEdit(MainWindow *parent)
     QButtonGroup * alignGroup = new QButtonGroup(this);
 
     const QIcon leftIcon(":/images/textleft.png");
-     actionAlignLeft = new QPushButton(this);
+    actionAlignLeft = new QPushButton(this);
     actionAlignLeft->setIcon(leftIcon);
     actionAlignLeft->setIconSize(iconSize);
     actionAlignLeft->setToolTip(tr("Aligné à gauche"));
@@ -61,7 +61,7 @@ TextEdit::TextEdit(MainWindow *parent)
     alignGroup->addButton(actionAlignLeft);
 
     const QIcon centerIcon(":/images/textcenter.png");
-     actionAlignCenter = new QPushButton(this);
+    actionAlignCenter = new QPushButton(this);
     actionAlignCenter->setIcon(centerIcon);
     actionAlignCenter->setIconSize(iconSize);
     actionAlignCenter->setToolTip(tr("Centré"));
@@ -71,7 +71,7 @@ TextEdit::TextEdit(MainWindow *parent)
     alignGroup->addButton(actionAlignCenter);
 
     const QIcon rightIcon(":/images/textright.png");
-     actionAlignRight = new QPushButton(this);
+    actionAlignRight = new QPushButton(this);
     actionAlignRight->setIcon(rightIcon);
     actionAlignRight->setIconSize(iconSize);
     actionAlignRight->setToolTip(tr("Aligné à droite"));
@@ -81,7 +81,7 @@ TextEdit::TextEdit(MainWindow *parent)
     alignGroup->addButton(actionAlignRight);
 
     const QIcon fillIcon(":/images/textjustify.png");
-     actionAlignJustify = new QPushButton(this);
+    actionAlignJustify = new QPushButton(this);
     actionAlignJustify->setIcon(fillIcon);
     actionAlignJustify->setIconSize(iconSize);
     actionAlignJustify->setToolTip(tr("Justifié"));
@@ -92,7 +92,7 @@ TextEdit::TextEdit(MainWindow *parent)
 
     QPixmap pix(32,32);
     pix.fill(Qt::black);
-     actionTextColor = new QPushButton(this);
+    actionTextColor = new QPushButton(this);
     actionTextColor->setIcon(QIcon(pix));
     actionTextColor->setIconSize(iconSize);
     actionTextColor->setToolTip(tr("Couleur"));
@@ -257,23 +257,40 @@ void TextEdit::contentChanged()
     text = text.replace("'"," ");
     QStringList list = text.split(' ',QString::SkipEmptyParts);
     QStringList misspelled_words;
+    QStringList goodspelled_words;
     for (int i = 0 ; i < list.count() ; ++i)
-        if (list[i].length()>3)
-        if (!isSpellingCorrect(list[i]))
+        if ((list[i].length()>3)&&(!isSpellingCorrect(list[i])))
             misspelled_words << list[i] ;
-
+        else
+            goodspelled_words << list [i] ;
 
     disconnect(textEdit,SIGNAL(textChanged()),this,SLOT(contentChanged()));
 
     QTextDocument * doc = textEdit->document();
     QTextCharFormat format;
+    format.setFontUnderline(false);
+    for (int i = 0 ; i < goodspelled_words.count() ; ++i)
+    {
+        QTextCursor cursor = doc->find(goodspelled_words[i]);
+        do
+        {
+            cursor.mergeCharFormat(format);
+            cursor = doc->find(goodspelled_words[i],cursor);
+        }
+        while(cursor!=QTextCursor());
+    }
+
     format.setUnderlineColor(QColor(Qt::red));
     format.setFontUnderline(true);
     for (int i = 0 ; i < misspelled_words.count() ; ++i)
     {
-        QTextCursor cursor;
-        cursor = doc->find(misspelled_words[i]);
-                cursor.mergeCharFormat(format);
+        QTextCursor cursor = doc->find(misspelled_words[i]);
+        do
+        {
+            cursor.mergeCharFormat(format);
+            cursor = doc->find(misspelled_words[i],cursor);
+        }
+        while(cursor!=QTextCursor());
 
     }
     connect(textEdit,SIGNAL(textChanged()),this,SLOT(contentChanged()));
@@ -309,7 +326,7 @@ void TextEdit::showContextMenu(const QPoint & pos)
             QAction * action = new QAction(suggestions[i],stdMenu) ;
             stdMenu->insertAction(first,action);
             connect(action,SIGNAL(triggered()),this,SLOT(correct()));
-}
+        }
         stdMenu->insertSeparator(first);
     }
 
