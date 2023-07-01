@@ -153,6 +153,7 @@ void MainWindow::documentWasModified()
 
 void MainWindow::init()
 {
+    /*
     try {
 #ifdef Q_OS_MACOS
         m_Hunspell = new Hunspell("fr-classique.aff","fr-classique.dic");
@@ -168,6 +169,7 @@ void MainWindow::init()
         qDebug() << "Error loading Hunspell" ;
         m_Hunspell = NULL;
     }
+    */
     //setAttribute(Qt::WA_DeleteOnClose);
     setIconSize(QSize(64,64));
 

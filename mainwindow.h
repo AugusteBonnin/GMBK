@@ -7,7 +7,7 @@
 #include <QMainWindow>
 #include <QToolButton>
 
-#include <hunspell/hunspell.hxx>
+//#include <hunspell/hunspell.hxx>
 
 
 namespace Ui {
@@ -24,8 +24,8 @@ public:
     explicit MainWindow(const QString &fileName);
 
     void tile(const QMainWindow *previous);
-    Hunspell * getSpellChecker(){return m_Hunspell;}
-    QTextCodec * getTextCodec(){return m_Codec;}
+    //Hunspell * getSpellChecker(){return m_Hunspell;}
+    //QTextCodec * getTextCodec(){return m_Codec;}
 protected:
     void closeEvent(QCloseEvent *event) override;
 
@@ -69,10 +69,10 @@ private:
     static QString strippedName(const QString &fullFileName);
     MainWindow *findMainWindow(const QString &fileName) const;
 
-    Hunspell *m_Hunspell;
+    /*Hunspell *m_Hunspell;
     QString m_Encoding;
     QTextCodec * m_Codec;
-
+*/
     Form * form ;
 Document * document;
 

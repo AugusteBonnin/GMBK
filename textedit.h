@@ -60,7 +60,7 @@
 #include <QTextEdit>
 #include <QTextCodec>
 
-#include <hunspell/hunspell.hxx>
+//#include <hunspell/hunspell.hxx>
 
 class QComboBox;
 class QFontComboBox;
@@ -95,9 +95,9 @@ private slots:
     void contentChanged();
     void insertImage();
 
-    void showContextMenu(const QPoint &pos);
+    //void showContextMenu(const QPoint &pos);
 
-    void correct();
+    //void correct();
 private:
 
     void mergeFormatOnWordOrSelection(const QTextCharFormat &format);
@@ -121,11 +121,13 @@ private:
 
     QTextEdit *textEdit;
 
+    /*
     Hunspell * hunspell;
     QTextCodec * codec;
     bool isSpellingCorrect(const QString &word) const;
     QStringList suggestCorrections(const QString &word);
     QTextCursor tc;
+    */
 signals:
     void textChanged();
 };

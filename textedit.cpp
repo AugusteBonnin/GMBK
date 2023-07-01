@@ -9,7 +9,7 @@
 #include <QGridLayout>
 #include <QDebug>
 
-#include <hunspell/hunspell.hxx>
+//#include <hunspell/hunspell.hxx>
 
 
 TextEdit::TextEdit(MainWindow *parent)
@@ -141,14 +141,14 @@ TextEdit::TextEdit(MainWindow *parent)
     alignmentChanged(textEdit->alignment());
 
     textEdit->setFocus();
-
+/*
     textEdit->setContextMenuPolicy(Qt::CustomContextMenu);
 
     connect(textEdit, SIGNAL(customContextMenuRequested(const QPoint &)),
             this, SLOT(showContextMenu(const QPoint &)));
-
-    hunspell = parent->getSpellChecker();
-    codec = parent->getTextCodec();
+*/
+    //hunspell = parent->getSpellChecker();
+    //codec = parent->getTextCodec();
 
 }
 
@@ -243,8 +243,9 @@ void TextEdit::clipboardDataChanged()
 
 void TextEdit::contentChanged()
 {
-    emit textChanged();
 
+    emit textChanged();
+/*
     QString text = textEdit->toPlainText();
     text = text.replace('.',' ');
     text = text.replace(',',' ');
@@ -294,10 +295,10 @@ void TextEdit::contentChanged()
 
     }
     connect(textEdit,SIGNAL(textChanged()),this,SLOT(contentChanged()));
-
-
+*/
 }
 
+/*
 bool TextEdit::isSpellingCorrect(const QString &word) const {
     bool isOk = false;
     try {
@@ -308,7 +309,8 @@ bool TextEdit::isSpellingCorrect(const QString &word) const {
     }
     return isOk;
 }
-
+*/
+/*
 void TextEdit::showContextMenu(const QPoint & pos)
 {
     QMenu* stdMenu= textEdit->createStandardContextMenu();
@@ -332,7 +334,8 @@ void TextEdit::showContextMenu(const QPoint & pos)
 
     stdMenu->popup(textEdit->viewport()->mapToGlobal(pos));
 }
-
+*/
+/*
 QStringList TextEdit::suggestCorrections(const QString &word) {
     QStringList suggestions;
     char **suggestWordList = NULL;
@@ -359,7 +362,7 @@ void TextEdit::correct(void)
     QAction * action = (QAction*)sender();
     tc.insertText(action->text(),QTextCharFormat());
 }
-
+*/
 void TextEdit::insertImage()
 {
     const QString fileName = QFileDialog::getOpenFileName(this,tr("Sélectionnez l'image que vous désirez insérer."),QDir::homePath(),"*.png *.jpg");
